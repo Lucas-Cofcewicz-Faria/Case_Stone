@@ -178,6 +178,9 @@
   transition: border-color 160ms, background-color 160ms;
 }
 .exemplos button > span { overflow: hidden; }
+/* exemplos de nome curto: pílulas lado a lado, quebrando a linha */
+.exemplos > .pilulas { flex-direction: row; flex-wrap: wrap; }
+.exemplos > .pilulas button { width: auto; flex: 1 1 auto; }
 .exemplos button > i { flex: none; width: 24px; height: 24px; border-radius: 999px; display: grid; place-items: center; background: var(--tinta-verde); color: var(--escuro); }
 .exemplos button > i svg { width: 12px; height: 12px; }
 .exemplos button:hover { border-color: var(--neon-2); }

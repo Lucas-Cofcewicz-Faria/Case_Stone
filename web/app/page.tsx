@@ -19,7 +19,7 @@ type Campo = "titulo" | "legenda" | "roteiro";
 type Rascunho = { titulo: string; legenda: string; roteiro: string; duracao_s: number };
 type Tela =
   | { k: "edita" }
-  | { k: "aguarde"; t0: number; fase: string }
+  | { k: "aguarde"; t0: number; fase: string; gravado?: boolean }
   | { k: "imprimindo" }
   | { k: "nota"; nota: number; demo?: boolean }
   | { k: "aviso"; msg: string }
@@ -33,11 +33,24 @@ const DICA: Record<Campo, string> = {
   legenda: "ex.: Comenta QUERO que eu te mando a planilha de custos.",
   roteiro: "ex.: Close nas mãos. Fala: sabe quanto custa esse bolo?",
 };
+/* cada exemplo tem uma execução gravada (python -m stone.gravar_demo): com o texto intacto, toca em segundos; editou, vai ao vivo */
 const PRESETS = [
-  { nome: "confeitaria", pedido: "Post do Impulso para confeiteiras que vendem bolo por encomenda e não sabem quanto cobrar" },
-  { nome: "salão", pedido: "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta" },
-  { nome: "ar-cond.", pedido: "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos" },
+  { nome: "confeitaria", chave: "confeitaria", pedido: "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar" },
+  { nome: "salão", chave: "salao", pedido: "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta" },
+  { nome: "loja de roupas", chave: "roupas", pedido: "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram" },
+  { nome: "lavanderia", chave: "lavanderia", pedido: "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região" },
+  { nome: "artesã MEI", chave: "artesa", pedido: "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS" },
+  { nome: "ar-condicionado", chave: "arcond", pedido: "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos" },
 ];
+type Pronto = Rascunho & { chave: string; avaliacao: Avaliacao };
+type Gravacao = { pedido: string; nota: number; versoes: number[]; gravado_em: string };
+const NOME_PRONTO: Record<string, string> = { nota_mei: "nota MEI", bolo: "bolo", motivacional: "motivação" };
+const igual = (a: Rascunho, b: Rascunho) =>
+  a.titulo.trim() === b.titulo.trim() && a.legenda.trim() === b.legenda.trim() && a.roteiro.trim() === b.roteiro.trim() && a.duracao_s === b.duracao_s;
+const espera = (ms: number, sinal: AbortSignal) => new Promise<void>((ok, falha) => {
+  const t = setTimeout(ok, ms);
+  sinal.addEventListener("abort", () => { clearTimeout(t); falha(new DOMException("parou", "AbortError")); }, { once: true });
+});
 const FASES = [
   "lendo o rascunho com a mesma rubrica dos 3.548 posts",
   "classificando formato, gancho, tema e chamada",
@@ -78,14 +91,15 @@ function valor(campo: string, v: string | boolean) {
   return junta(rotulo(`${campo}=${v}`).split(": ")[1] ?? String(v).replaceAll("_", " "));
 }
 
-function linhasAvaliacao(av: Avaliacao, o: { titulo: string; duracao?: number; real?: Exemplo; demo?: boolean }): Linha[] {
+function linhasAvaliacao(av: Avaliacao, o: { titulo: string; duracao?: number; real?: Exemplo; demo?: boolean; pronto?: boolean }): Linha[] {
   const L: Linha[] = [
     { k: "centro", t: "stone · conversa", forte: true },
     { k: "centro", t: "EXTRATO DE ADERÊNCIA" },
     { k: "miudo", t: `${carimbo()} · via do cliente`, centro: true },
   ];
   if (o.demo) L.push({ k: "miudo", t: "MODO DEMO: a API local está desligada. Este é um post real que já foi avaliado.", centro: true });
-  L.push({ k: "sep" }, { k: "texto", t: semTags(o.titulo) || o.titulo, forte: true }, { k: "par", a: "origem", b: o.real ? "post real" : "seu rascunho" });
+  if (o.pronto) L.push({ k: "miudo", t: "Rascunho de exemplo: avaliação gravada antes, com o mesmo modelo local.", centro: true });
+  L.push({ k: "sep" }, { k: "texto", t: semTags(o.titulo) || o.titulo, forte: true }, { k: "par", a: "origem", b: o.real ? "post real" : o.pronto ? "rascunho de exemplo" : "seu rascunho" });
   if (o.real) {
     L.push({ k: "par", a: "canal", b: semEmoji(o.real.perfil).trim() });
     L.push({ k: "par", a: "conversa", b: mil(o.real.conversa) });
@@ -256,6 +270,8 @@ function Icone({ d }: { d: string }) {
 export default function Pagina() {
   const [online, setOnline] = useState(false);
   const [exemplos, setExemplos] = useState<Exemplo[]>([]);
+  const [prontos, setProntos] = useState<Pronto[]>([]);
+  const [gravacoes, setGravacoes] = useState<Record<string, Gravacao>>({});
   const [modo, setModo] = useState<Modo>("avaliar");
   const [rasc, setRasc] = useState<Rascunho>({ titulo: "", legenda: "", roteiro: "", duracao_s: 45 });
   const [pedido, setPedido] = useState(PRESETS[0].pedido);
@@ -276,6 +292,8 @@ export default function Pagina() {
   /* ---------- montagem ---------- */
   useEffect(() => {
     carregar<Exemplo[]>("exemplos").then((e) => setExemplos([...e].sort((a, b) => b.avaliacao.nota - a.avaliacao.nota)));
+    carregar<Pronto[]>("rascunhos").then(setProntos).catch(() => {});
+    carregar<Record<string, Gravacao>>("agente/indice").then(setGravacoes).catch(() => {});
     apiOnline().then(setOnline);
     const id = setInterval(() => apiOnline().then(setOnline), 8000);
     const relogio = () => setHora(new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }));
@@ -401,27 +419,37 @@ export default function Pagina() {
 
   const avaliarAgora = async () => {
     if (![rasc.titulo, rasc.legenda, rasc.roteiro].some((t) => t.trim())) {
-      setTela({ k: "aviso", msg: "Escreva o título ou toque num post real:" });
+      setTela({ k: "aviso", msg: "Escreva o título ou toque num exemplo:" });
       focar();
       return;
     }
+    // rascunho de exemplo intacto: a avaliação já está gravada, não precisa do modelo
+    const pronto = prontos.find((p) => igual(p, rasc));
     // sem a API não há modelo para ler um texto novo: nunca imprimir um post qualquer no lugar do rascunho
-    if (!online) {
+    if (!online && !pronto) {
       const volta = await apiOnline();
       setOnline(volta);
       if (!volta) {
-        setTela({ k: "aviso", msg: "API local desligada: só dá para ver posts reais já avaliados." });
+        setTela({ k: "aviso", msg: "API local desligada: só os exemplos prontos e os posts reais funcionam." });
         return;
       }
     }
     if (comp) destacar();
     const ctl = new AbortController(); abort.current = ctl;
-    setTela({ k: "aguarde", t0: performance.now(), fase: FASES[0] });
+    setTela({ k: "aguarde", t0: performance.now(), fase: FASES[0], gravado: !!pronto });
     try {
-      const av = await avaliar(rasc, ctl.signal);
+      let av: Avaliacao;
+      if (pronto) {
+        // as fases passam rápido, só para mostrar o caminho que o rascunho faz
+        for (const f of FASES) {
+          setTela((t) => (t.k === "aguarde" ? { ...t, fase: f } : t));
+          await espera(320, ctl.signal);
+        }
+        av = pronto.avaliacao;
+      } else av = await avaliar(rasc, ctl.signal);
       notaFinal.current = { nota: av.nota };
       setTela({ k: "imprimindo" });
-      imprimir(linhasAvaliacao(av, { titulo: rasc.titulo || rasc.legenda.slice(0, 60), duracao: rasc.duracao_s }), true);
+      imprimir(linhasAvaliacao(av, { titulo: rasc.titulo || rasc.legenda.slice(0, 60), duracao: rasc.duracao_s, pronto: !!pronto }), true);
     } catch (e) {
       if ((e as Error).name === "AbortError") { setTela({ k: "edita" }); return; }
       setTela({ k: "erro", msg: `${(e as Error).message}. Confira se o Ollama está aberto e toque em Tentar de novo.` });
@@ -431,20 +459,27 @@ export default function Pagina() {
   /* ---------- agente ---------- */
   const gerar = async () => {
     if (!pedido.trim()) { setTela({ k: "aviso", msg: "Escreva o pedido ou toque num exemplo:" }); return; }
+    // exemplo com o texto intacto: toca a execução gravada do mesmo agente, sem esperar o modelo
+    const preset = PRESETS.find((p) => p.pedido === pedido.trim());
+    const grav = preset ? gravacoes[preset.chave] : undefined;
+    if (!grav && !online) {
+      const volta = await apiOnline();
+      setOnline(volta);
+      if (!volta) { setTela({ k: "aviso", msg: "API local desligada: só os exemplos gravados funcionam. Toque num:" }); return; }
+    }
     if (comp) destacar();
     const ctl = new AbortController(); abort.current = ctl;
     const versoes: number[] = [];
     let melhor: Est | null = null;
     let refs: Est[] = [];
-    const demo = !online;
-    setTela({ k: "aguarde", t0: performance.now(), fase: "entendendo o pedido" });
+    setTela({ k: "aguarde", t0: performance.now(), fase: "entendendo o pedido", gravado: !!grav });
     setTimeout(() => imprimir([
       { k: "centro", t: "stone · agente", forte: true },
       { k: "centro", t: "PEDIDO DE CRIATIVO" },
       { k: "miudo", t: `${carimbo()} · via do cliente`, centro: true },
-      ...(demo ? [{ k: "miudo", t: "MODO DEMO: execução gravada do agente para o salão de beleza.", centro: true } as Linha] : []),
+      ...(grav ? [{ k: "miudo", t: `Exemplo: execução gravada em ${grav.gravado_em.split(" ")[0]} com o mesmo agente (qwen3-vl:8b local).`, centro: true } as Linha] : []),
       { k: "sep" },
-      { k: "texto", t: demo ? PRESETS[1].pedido : pedido },
+      { k: "texto", t: pedido.trim() },
       { k: "sep" },
     ], false), comp ? 380 : 0);
 
@@ -458,12 +493,12 @@ export default function Pagina() {
       setTela((t) => (t.k === "aguarde" ? { ...t, fase } : t));
     };
     try {
-      if (demo) {
-        const txt = await fetch("/data/agente_demo.sse").then((r) => (r.ok ? r.text() : ""));
-        const eventos = txt.split("\n\n").filter((b) => b.startsWith("event: etapa")).map((b) => JSON.parse(b.split("data: ")[1]) as EtapaAgente);
+      if (grav && preset) {
+        const txt = await fetch(`/data/agente/${preset.chave}.sse`, { signal: ctl.signal }).then((r) => (r.ok ? r.text() : ""));
+        const eventos = txt.replace(/\r\n/g, "\n").split("\n\n").filter((b) => b.startsWith("event: etapa")).map((b) => JSON.parse(b.slice(b.indexOf("data: ") + 6)) as EtapaAgente);
+        if (!eventos.length) throw new Error("gravação do exemplo não encontrada");
         for (const ev of eventos) {
-          await new Promise((r) => setTimeout(r, ev.no === "gerar" || ev.no === "avaliar" ? 1500 : 700));
-          if (ctl.signal.aborted) throw new DOMException("parou", "AbortError");
+          await espera(ev.no === "gerar" || ev.no === "avaliar" ? 750 : 420, ctl.signal);
           receber(ev);
         }
       } else {
@@ -471,7 +506,7 @@ export default function Pagina() {
       }
       if (!melhor) throw new Error("o agente terminou sem um criativo");
       const m = melhor as Est;
-      notaFinal.current = { nota: m.avaliacao.nota, demo };
+      notaFinal.current = { nota: m.avaliacao.nota };
       setTela({ k: "imprimindo" });
       acrescentar(linhasCriativo(m, versoes, refs), true);
     } catch (e) {
@@ -505,6 +540,12 @@ export default function Pagina() {
     const ex = exemplosEscolhidos[i];
     if (ex) { setRasc((r) => ({ ...r, titulo: semTags(ex.titulo), legenda: "", roteiro: "" })); mostrarExemplo(ex); }
   };
+  // rascunho pronto: só preenche a tela (dá para mostrar o texto antes); Imprimir nota usa a avaliação gravada
+  const usarPronto = (p: Pronto) => {
+    if (ocupado) return;
+    setRasc({ titulo: p.titulo, legenda: p.legenda, roteiro: p.roteiro, duracao_s: p.duracao_s });
+    setTela({ k: "edita" });
+  };
 
   // saiu da tela da nota (Editar, Voltar, novo pedido): o fundo volta para STONE; nota só aparece enquanto ela está na tela
   useEffect(() => {
@@ -537,7 +578,7 @@ export default function Pagina() {
     if (e.key === "Enter" && (e.ctrlKey || e.metaKey || (linhaUnica && !e.shiftKey))) { e.preventDefault(); enviar(); }
   };
   const seg = tela.k === "aguarde" ? Math.max(0, (agora - tela.t0) / 1000) : 0;
-  const estimado = modo === "agente" ? 180 : 28;
+  const estimado = tela.k === "aguarde" && tela.gravado ? (modo === "agente" ? 6 : 1.3) : modo === "agente" ? 180 : 28;
   const LINHAS_CAMPO: Record<Campo, number> = { titulo: 1, legenda: 2, roteiro: 2 }; // título de post é uma linha
 
   const conteudoTela = (
@@ -586,8 +627,21 @@ export default function Pagina() {
                   <button type="button" aria-label="Mais 5 segundos" onClick={() => setRasc((r) => ({ ...r, duracao_s: Math.min(180, r.duracao_s + 5) }))}><Icone d="M5 12h14M12 5v14" /></button>
                 </div>
               </div>
+              {tela.k === "aviso" && <span className={s.aviso} role="status">{tela.msg}</span>}
+              {prontos.length > 0 && (
+                <div className={s.exemplos}>
+                  <span className={s.rot}>rascunhos prontos</span>
+                  <div className={s.pilulas}>
+                    {prontos.map((p) => (
+                      <button key={p.chave} type="button" aria-pressed={igual(p, rasc)} onClick={() => usarPronto(p)} title={p.titulo}>
+                        <i><Icone d="M5 12.5l4.5 4.5L19 7.5" /></i><span>{NOME_PRONTO[p.chave] ?? p.chave}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
               <div className={s.exemplos}>
-                {tela.k === "aviso" ? <span className={s.aviso} role="status">{tela.msg}</span> : <span className={s.rot}>ou teste um post real</span>}
+                <span className={s.rot}>ou teste um post real</span>
                 <div>
                   {exemplosEscolhidos.map((ex, i) => (
                     <button key={ex.post_id} type="button" onClick={() => exemplo(i)} title={frase(semTags(ex.titulo)) || undefined}>
@@ -613,9 +667,9 @@ export default function Pagina() {
                 />
               </label>
               <div className={s.exemplos}>
-                {tela.k === "aviso" ? <span className={s.aviso} role="status">{tela.msg}</span> : <span className={s.rot}>exemplos</span>}
-                <div>
-                  {PRESETS.map((p) => (
+                {tela.k === "aviso" ? <span className={s.aviso} role="status">{tela.msg}</span> : <span className={s.rot}>exemplos gravados · saem na hora</span>}
+                <div className={s.pilulas}>
+                  {PRESETS.filter((p) => gravacoes[p.chave]).map((p) => (
                     <button key={p.nome} type="button" aria-pressed={pedido === p.pedido} onClick={() => mudarPedido(p.pedido)}><i><Icone d="M12 4v16M4 12h16" /></i><span>{p.nome}</span></button>
                   ))}
                 </div>
@@ -637,7 +691,7 @@ export default function Pagina() {
           <p className={s.cronometro}>{seg.toFixed(1).replace(".", ",")}<small> s</small></p>
           <p key={tela.fase} className={`${s.fase} ${s.troca}`}>{tela.fase}</p>
           <div className={s.barra} aria-hidden><i style={{ width: `${Math.min(1, seg / estimado) * 100}%` }} /></div>
-          <p className={s.dica}>{modo === "agente" ? "cerca de 1 min por versão" : "cerca de 25 s"}</p>
+          <p className={s.dica}>{tela.gravado ? "exemplo gravado: sai em segundos" : modo === "agente" ? "cerca de 1 min por versão" : "cerca de 25 s"}</p>
           <div className={s.acoes}><button type="button" className={s.cancelar} onClick={() => abort.current?.abort()}>Cancelar</button></div>
         </div>
       )}

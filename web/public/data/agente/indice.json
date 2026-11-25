@@ -1,0 +1,62 @@
+{
+  "confeitaria": {
+    "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar",
+    "nota": 72,
+    "versoes": [
+      72
+    ],
+    "segundos": 9,
+    "gravado_em": "25/11/2026 10:34"
+  },
+  "salao": {
+    "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta",
+    "nota": 34,
+    "versoes": [
+      34,
+      20,
+      20
+    ],
+    "segundos": 0,
+    "gravado_em": "25/11/2026 10:26"
+  },
+  "roupas": {
+    "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram",
+    "nota": 76,
+    "versoes": [
+      76
+    ],
+    "segundos": 0,
+    "gravado_em": "25/11/2026 10:34"
+  },
+  "lavanderia": {
+    "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região",
+    "nota": 55,
+    "versoes": [
+      50,
+      32,
+      55
+    ],
+    "segundos": 0,
+    "gravado_em": "25/11/2026 10:26"
+  },
+  "artesa": {
+    "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS",
+    "nota": 62,
+    "versoes": [
+      62
+    ],
+    "segundos": 0,
+    "gravado_em": "25/11/2026 10:26"
+  },
+  "arcond": {
+    "pedido": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos",
+    "nota": 47,
+    "versoes": [
+      47,
+      10,
+      25
+    ],
+    "segundos": 223,
+    "gravado_em": "25/11/2026 10:29"
+  }
+}
