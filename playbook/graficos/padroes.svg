@@ -1,0 +1,41 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='460' viewBox='0 0 900 460' role='img' aria-label='Lift dos atributos significativos no top 10% de conversa' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif'>
+<title>Lift dos atributos significativos no top 10% de conversa</title>
+<rect width='900' height='460' fill='#fcfcfb'/>
+<text x='24' y='36' font-size='19' font-weight='600' fill='#0b0b0b'>O que aparece mais (e menos) nos posts que geram conversa</text>
+<text x='24' y='60' font-size='13' fill='#52514e'>Lift = % dos posts do top 10% com o atributo ÷ % no resto da base. Só atributos com diferença significativa (|z| ≥ 1,96). 2.618 posts, 263 no top.</text>
+<line x1='394.4' y1='84' x2='394.4' y2='410' stroke='#e1e0d9' stroke-width='1'/>
+<text x='394.4' y='430' font-size='12' fill='#898781' text-anchor='middle'>0,5×</text>
+<line x1='511.4' y1='84' x2='511.4' y2='410' stroke='#e1e0d9' stroke-width='1'/>
+<text x='511.4' y='430' font-size='12' fill='#898781' text-anchor='middle'>0,75×</text>
+<line x1='594.4' y1='84' x2='594.4' y2='410' stroke='#c3c2b7' stroke-width='1.5'/>
+<text x='594.4' y='430' font-size='12' fill='#898781' text-anchor='middle'>1,0×</text>
+<line x1='658.8' y1='84' x2='658.8' y2='410' stroke='#e1e0d9' stroke-width='1'/>
+<text x='658.8' y='430' font-size='12' fill='#898781' text-anchor='middle'>1,25×</text>
+<line x1='711.4' y1='84' x2='711.4' y2='410' stroke='#e1e0d9' stroke-width='1'/>
+<text x='711.4' y='430' font-size='12' fill='#898781' text-anchor='middle'>1,5×</text>
+<text x='594.4' y='448' font-size='12' fill='#52514e' text-anchor='middle'>← menos no top · igual · mais no top →</text>
+<text x='316' y='109' font-size='14' fill='#0b0b0b' text-anchor='end'>Tema: burocracia do MEI (DAS, nota, CNPJ)</text>
+<path d='M594.3856189774724,96 H697.5961990255144 Q701.5961990255144,96 701.5961990255144,100 V110 Q701.5961990255144,114 697.5961990255144,114 H594.3856189774724 Z' fill='#2a78d6'/>
+<text x='711.6' y='109' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>1,45×</tspan><tspan fill='#898781'>  18% vs 12%</tspan></text>
+<text x='316' y='147' font-size='14' fill='#0b0b0b' text-anchor='end'>Legenda curta</text>
+<path d='M594.3856189774724,134 H645.3870284774464 Q649.3870284774464,134 649.3870284774464,138 V148 Q649.3870284774464,152 645.3870284774464,152 H594.3856189774724 Z' fill='#2a78d6'/>
+<text x='659.4' y='147' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>1,21×</tspan><tspan fill='#898781'>  41% vs 34%</tspan></text>
+<text x='316' y='185' font-size='14' fill='#0b0b0b' text-anchor='end'>Duração de 60 a 180 s</text>
+<path d='M594.3856189774724,172 H635.6873249392083 Q639.6873249392083,172 639.6873249392083,176 V186 Q639.6873249392083,190 635.6873249392083,190 H594.3856189774724 Z' fill='#2a78d6'/>
+<text x='649.7' y='185' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>1,17×</tspan><tspan fill='#898781'>  48% vs 41%</tspan></text>
+<text x='316' y='223' font-size='14' fill='#0b0b0b' text-anchor='end'>Gancho em forma de pergunta</text>
+<path d='M594.3856189774724,210 H628.1923838554758 Q632.1923838554758,210 632.1923838554758,214 V224 Q632.1923838554758,228 628.1923838554758,228 H594.3856189774724 Z' fill='#2a78d6'/>
+<text x='642.2' y='223' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>1,14×</tspan><tspan fill='#898781'>  64% vs 56%</tspan></text>
+<text x='316' y='261' font-size='14' fill='#0b0b0b' text-anchor='end'>Tom informal, de conversa</text>
+<path d='M594.3856189774724,248 H623.0853654340484 Q627.0853654340484,248 627.0853654340484,252 V262 Q627.0853654340484,266 623.0853654340484,266 H594.3856189774724 Z' fill='#2a78d6'/>
+<text x='637.1' y='261' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>1,12×</tspan><tspan fill='#898781'>  77% vs 69%</tspan></text>
+<text x='316' y='299' font-size='14' fill='#0b0b0b' text-anchor='end'>Tom inspiracional</text>
+<path d='M594.3856189774724,286 H522.9716891615078 Q518.9716891615078,286 518.9716891615078,290 V300 Q518.9716891615078,304 522.9716891615078,304 H594.3856189774724 Z' fill='#e34948'/>
+<text x='604.4' y='299' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>0,77×</tspan><tspan fill='#898781'>  21% vs 28%</tspan></text>
+<text x='316' y='337' font-size='14' fill='#0b0b0b' text-anchor='end'>Tema: gestão genérica</text>
+<path d='M594.3856189774724,324 H361.50070474998694 Q357.50070474998694,324 357.50070474998694,328 V338 Q357.50070474998694,342 361.50070474998694,342 H594.3856189774724 Z' fill='#e34948'/>
+<text x='604.4' y='337' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>0,44×</tspan><tspan fill='#898781'>  5% vs 10%</tspan></text>
+<text x='316' y='375' font-size='14' fill='#0b0b0b' text-anchor='end'>Gancho de promessa (&quot;você vai…&quot;)</text>
+<path d='M594.3856189774724,362 H354.8673319629471 Q350.8673319629471,362 350.8673319629471,366 V376 Q350.8673319629471,380 354.8673319629471,380 H594.3856189774724 Z' fill='#e34948'/>
+<text x='604.4' y='375' font-size='13' fill='#0b0b0b'><tspan font-weight='600'>0,43×</tspan><tspan fill='#898781'>  2% vs 5%</tspan></text>
+</svg>

@@ -1,0 +1,116 @@
+[
+  {
+    "input": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "alimentacao"
+    }
+  },
+  {
+    "input": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "beleza"
+    }
+  },
+  {
+    "input": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "varejo"
+    }
+  },
+  {
+    "input": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "servicos"
+    }
+  },
+  {
+    "input": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "autonomos"
+    }
+  },
+  {
+    "input": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos",
+    "additional_metadata": {
+      "origem": "web-preset",
+      "rotulo": "ar-condicionado"
+    }
+  },
+  {
+    "input": "Post do Impulso para dono de food truck de açaí que perde vendas por falta de troco no PIX/maquininha em feiras.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Post do Impulso p/ manicure autônoma c/ agenda furada por faltas: inclua gancho, sinal antecipado de 30% via Pix e CTA WhatsApp.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Post Impulso: como lojista de roupas MEI calcula preço (custo + markup 2x) sem prejuízo, incluindo taxas de maquininha?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Post do Impulso para MEI sobre emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Post do Impulso para dono de padaria de bairro com maquininha parada, perdendo vendas por não aceitar Pix parcelado.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Como uma artesã de crochê sem tempo nem verba pode combinar Reels, hashtags e prova social para crescer organicamente no Instagram?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Como a mistura do caixa da barbearia com o dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso convence?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "E se o fornecedor dobrasse o preço do ingrediente amanhã? Como a confeiteira ajustaria preços das encomendas no post do Impulso?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Imagine um eletricista autônomo dobrando clientes em 1 mês: como um post do Impulso o ajudaria a definir quanto cobrar por visita?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Compare posts do Impulso: desconto fidelidade vs. clube de assinatura mensal para salão fidelizar clientes.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Imagine uma loja de rua sem vendas por 1 semana. Como um post do Impulso reverteria isso?",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  },
+  {
+    "input": "Post do Impulso p/ dono de food truck: caixa some todo mês e difícil achar fornecedor de carne; tom empático, CTA claro, máx. 30s.",
+    "additional_metadata": {
+      "origem": "deepeval-goldens"
+    }
+  }
+]

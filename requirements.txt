@@ -1,0 +1,12 @@
+pandas>=2.2
+pyarrow>=15
+pydantic>=2.7
+requests>=2.31
+python-dotenv>=1.0
+google-api-python-client>=2.130
+pytest>=8
+tabulate>=0.9
+pillow>=10
+langgraph>=1.0
+fastmcp>=2
+deepeval>=4.3  # only for tests/evals (judge via claude -p)

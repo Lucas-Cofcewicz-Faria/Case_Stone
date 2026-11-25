@@ -1,0 +1,362 @@
+.palco {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(60% 70% at 64% 72%, #062a19 0%, transparent 70%),
+    var(--chao);
+}
+
+/* o número aceso do lado esquerdo: o único momento de ignição */
+.glifo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 56vw;
+  height: 100vh;
+  opacity: 0.62;
+  transition: opacity 900ms var(--ease), filter 900ms var(--ease);
+  pointer-events: none;
+}
+.glifo iframe { width: 100%; height: 100%; display: block; }
+.glifoAceso { opacity: 1; filter: none; }
+
+.grao {
+  position: fixed;
+  inset: -24px;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)'/%3E%3C/svg%3E");
+  animation: grao 1.2s steps(6) infinite;
+}
+@keyframes grao {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-14px, 9px); }
+  66% { transform: translate(10px, -18px); }
+  100% { transform: translate(-5px, 13px); }
+}
+
+.marca {
+  position: fixed;
+  top: 18px;
+  left: 24px;
+  width: 72px;
+  height: auto;
+  z-index: 1;
+}
+@media (max-width: 979px) { .marcaRecua { opacity: 0; transition: opacity 300ms var(--ease); } }
+
+.credito {
+  position: fixed;
+  left: 24px;
+  bottom: 18px;
+  max-width: 52ch;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: rgb(169 216 191 / 0.62);
+  z-index: 3;
+}
+.credito a { color: inherit; }
+.credito a:hover { color: var(--menta); }
+
+/* palco da máquina: máquina e tira de papel escalam juntas; recua para trás do véu quando o comprovante está em foco */
+.mundo {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 0;
+  z-index: 2;
+  transition: scale 420ms var(--ease), filter 420ms var(--ease);
+}
+/* com o comprovante em foco, a máquina recua para trás do véu */
+.mundoRecua { scale: 0.94; filter: blur(2px) brightness(0.85); }
+.escala {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  transform-origin: 50% 100%;
+  perspective: 1600px;
+  transition: transform 700ms var(--ease);
+}
+
+/* bases compartilhadas pelos estados do app (cursor, sinal, números) */
+.sinal { display: inline-flex; align-items: flex-end; gap: 2px; }
+.sinal i { width: 3px; background: currentColor; opacity: 0.35; }
+.sinal i:nth-child(1) { height: 4px; }
+.sinal i:nth-child(2) { height: 6px; }
+.sinal i:nth-child(3) { height: 8px; margin-right: 4px; }
+.sinal.on i { opacity: 1; }
+.caret { display: inline-block; width: 0.55em; height: 0.9em; margin-left: 4px; vertical-align: -0.08em; animation: pisca 1s steps(2, jump-none) infinite; }
+@keyframes pisca { 50% { opacity: 0.45; } }
+.cronometro { font-weight: 300; font-stretch: 90%; line-height: 1; letter-spacing: -0.02em; }
+.cronometro small { font-size: 14px; letter-spacing: 0; }
+.fase { margin-top: 6px; line-height: 1.4; text-wrap: pretty; }
+.nota { font-weight: 800; font-stretch: 85%; line-height: 1; letter-spacing: -0.03em; }
+.nota small { font-size: 18px; font-weight: 500; letter-spacing: 0; margin-left: 4px; }
+.retire { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; display: inline-flex; align-items: center; gap: 6px; }
+
+@media (max-width: 979px) {
+  .glifo { width: 100vw; height: 46vh; opacity: 0.22; transition: opacity 700ms var(--ease), height 0s 700ms, background-color 0s 700ms; }
+  .glifoAceso { opacity: 0; }
+  /* a ignição no celular: por um instante o número toma a tela inteira, depois some e deixa o comprovante */
+  .glifoIgnicao { height: 100vh; opacity: 1; z-index: 4; background-color: rgb(2 8 5 / 0.88); transition: opacity 250ms var(--ease); }
+  .credito { display: none; }
+}
+
+/* ---------- app da Stone Smart, na linguagem do site stone.com.br (medida em 2026-11-23) ----------
+   títulos condensados em caixa alta (ABC Gravity → Archivo wdth 62), texto em Roobert (→ Figtree),
+   verde neon #00DB00 com tinta escura nas ações, verde-escuro #005700 nos títulos, fundo menta #F4FCF3,
+   tudo em pílula: botões, abas, chips e campo de duração. */
+.app {
+  --neon: #00db00;
+  --neon-2: #00c700;
+  --escuro: #005700;
+  --tinta-app: #1b221f;
+  --tinta-app-2: #424a53;
+  --borda-app: #e6ecf2;
+  --tinta-verde: rgb(27 235 0 / 0.12);
+  --neutro: rgb(0 46 31 / 0.07);
+  --verde-acao: var(--escuro); /* compatível com regras antigas (foco, cursor) */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f4fcf3;
+  color: var(--tinta-app);
+  font-family: var(--f-texto), system-ui, sans-serif;
+  font-stretch: normal;
+  font-variant-numeric: tabular-nums;
+  text-shadow: none;
+}
+.app button { font-family: inherit; }
+.topo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 14px 12px;
+  background: #fff;
+  border-bottom: 1px solid var(--borda-app);
+}
+.status { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 600; color: var(--tinta-app); }
+.status .sinal { color: var(--tinta-app-2); font-weight: 600; align-items: baseline; } /* o pé das barras na linha de base do "ao vivo" */
+.status .sinal i { margin-bottom: 0.08em; }
+.status .sinal.on { color: var(--escuro); }
+.app .abas { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 0; border-radius: 999px; background: var(--neutro); }
+.app .abas button { border: 0; padding: 8px 4px; border-radius: 999px; font-size: 13.5px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--tinta-app-2); background: transparent; transition: background-color 160ms, color 160ms; }
+.app .abas button:hover { color: var(--tinta-app); }
+.app .abas button.abaOn { background: var(--escuro); color: #fff; }
+.app .abas button:disabled { opacity: 0.4; }
+
+.corpoApp { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 8px; padding: 12px 14px 0; overflow-y: auto; scrollbar-width: none; }
+.app .campo { display: flex; flex-direction: column; gap: 4px; flex: none; }
+.app .campoGrande { flex: 1; }
+.app .campoGrande textarea { flex: 1; }
+.app .rot { font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--tinta-app); }
+.app .rot { display: block; }
+.app .rot::first-letter { text-transform: uppercase; } /* frase com maiúscula inicial, como os rótulos do site */
+.app textarea {
+  width: 100%; resize: none; border: 1px solid var(--borda-app); border-radius: 16px;
+  background: #fff; color: var(--tinta-app); font-family: inherit; font-size: 13.5px; line-height: 1.35; padding: 8px 13px;
+  caret-color: var(--escuro); scrollbar-width: thin; transition: border-color 160ms, box-shadow 160ms;
+}
+.app textarea::placeholder { color: #6b747d; }
+/* título: uma linha vazio, cresce até duas quando o título é longo (nunca corta o texto) */
+.app textarea[data-linha="1"] { field-sizing: content; min-height: calc(1.35em + 18px); max-height: calc(2.7em + 18px); }
+.app textarea:focus { outline: 0; border-color: var(--neon-2); box-shadow: 0 0 0 3px rgb(0 219 0 / 0.22); }
+.linhaDur { display: flex; align-items: center; justify-content: space-between; }
+/* duração: uma pílula só, − valor + */
+.passo { display: flex; align-items: center; gap: 2px; padding: 3px; border-radius: 999px; background: #fff; border: 1px solid var(--borda-app); }
+.passo button { width: 32px; height: 32px; border-radius: 999px; border: 0; background: var(--neutro); color: var(--tinta-app); display: grid; place-items: center; }
+.passo button:hover { background: var(--tinta-verde); color: var(--escuro); }
+.passo output { min-width: 6ch; text-align: center; font-weight: 700; color: var(--tinta-app); font-size: 13.5px; }
+.exemplos { display: flex; flex-direction: column; gap: 6px; }
+.exemplos > div { display: flex; flex-direction: column; gap: 4px; }
+/* chips: as cápsulas brancas do site, com o ícone num círculo verde-claro */
+.exemplos button {
+  width: 100%; display: flex; align-items: center; gap: 8px; padding: 4px 12px 4px 4px; border-radius: 999px; border: 1px solid var(--borda-app);
+  background: #fff; color: var(--tinta-app); font-size: 12.5px; font-weight: 600; line-height: 1.2; text-align: left;
+  white-space: nowrap; overflow: hidden; /* o rótulo já vem cortado numa palavra inteira (curto()) */
+  transition: border-color 160ms, background-color 160ms;
+}
+.exemplos button > span { overflow: hidden; }
+.exemplos button > i { flex: none; width: 24px; height: 24px; border-radius: 999px; display: grid; place-items: center; background: var(--tinta-verde); color: var(--escuro); }
+.exemplos button > i svg { width: 12px; height: 12px; }
+.exemplos button:hover { border-color: var(--neon-2); }
+.exemplos button[aria-pressed="true"] { background: var(--escuro); border-color: var(--escuro); color: #fff; }
+.exemplos button[aria-pressed="true"] > i { background: var(--neon); color: var(--tinta-app); }
+/* o aviso toma o lugar do rótulo dos exemplos e aponta para eles */
+.app .aviso { font-size: 12px; line-height: 1.3; color: #7a4b00; font-weight: 700; }
+/* ações presas ao pé da tela: nunca somem quando um aviso aparece */
+.acoes { margin-top: auto; position: sticky; bottom: 0; display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0 14px; background: linear-gradient(to top, #f4fcf3 80%, rgb(244 252 243 / 0)); }
+.acoes > :only-child { grid-column: 1 / -1; }
+.acoes button { height: 48px; border-radius: 999px; font-size: 14.5px; font-weight: 600; border: 0; transition: background-color 160ms, transform 120ms; }
+.limpar { background: var(--neutro); color: var(--tinta-app); }
+.limpar:hover { background: rgb(0 46 31 / 0.12); }
+.primario { background: var(--neon); color: var(--tinta-app); }
+.primario:hover { background: var(--neon-2); }
+.primario:active, .limpar:active, .cancelar:active { transform: scale(0.98); }
+.cancelar { background: #ffe9e3; color: #a82c15; }
+/* estados (aguarde, nota, falha): conteúdo no alto da tela e ações logo abaixo, à vista mesmo com a máquina encolhida */
+.centro { justify-content: center; padding-top: 0; padding-bottom: 24px; }
+.centro .acoes { margin-top: 18px; position: static; background: none; padding: 0; }
+/* títulos de estado: a caixa alta condensada dos títulos do site */
+.app .grande {
+  font-family: var(--f-titulo), sans-serif; font-stretch: 62%; font-weight: 800; text-transform: uppercase;
+  font-size: 46px; line-height: 0.92; letter-spacing: -0.005em; color: var(--escuro);
+}
+.app .caret { background: var(--neon); width: 0.4em; height: 0.75em; vertical-align: -0.02em; }
+.app .falha { color: #a82c15; }
+.app .cronometro { font-family: var(--f-titulo), sans-serif; font-stretch: 62%; font-weight: 700; font-size: 64px; color: var(--tinta-app); margin-top: 6px; letter-spacing: 0; }
+.app .cronometro small { font-family: var(--f-texto), sans-serif; font-stretch: normal; font-size: 15px; font-weight: 600; }
+.app .fase { font-size: 14.5px; font-weight: 500; color: var(--tinta-app); }
+.app .dica { font-size: 13px; color: var(--tinta-app-2); }
+.app .barra { height: 8px; border-radius: 999px; background: var(--neutro); overflow: hidden; letter-spacing: 0; margin-top: 6px; }
+.app .barra i { display: block; height: 100%; border-radius: inherit; background: var(--neon); transition: width 100ms linear; }
+/* a nota: o número enorme condensado, como os títulos de seção do site */
+.app .nota { font-family: var(--f-titulo), sans-serif; font-stretch: 62%; font-weight: 800; font-size: 168px; line-height: 0.82; letter-spacing: -0.01em; color: var(--escuro); }
+.app .nota small { font-family: var(--f-texto), sans-serif; font-stretch: normal; font-size: 18px; font-weight: 600; color: var(--tinta-app-2); margin-left: 6px; letter-spacing: 0; }
+.notaDe { font-size: 15px; font-weight: 500; color: var(--tinta-app); margin-top: 10px; text-wrap: pretty; }
+.app .retire { color: var(--tinta-app); margin-top: 14px; font-size: 14px; font-weight: 600; letter-spacing: 0; animation: none; }
+/* foco de teclado visível no app claro */
+.app :focus-visible { outline: 2px solid var(--escuro); outline-offset: 2px; }
+.app .abas :focus-visible { outline-color: var(--neon-2); }
+
+/* ---------- movimento do app (linguagem dos apps das maquininhas Stone) ---------- */
+/* cada tela entra deslizando de leve, com os itens em cascata */
+.corpoApp { animation: tela-entra 280ms var(--ease) both; }
+.corpoApp > * { animation: item-entra 340ms var(--ease) both; }
+.corpoApp > :nth-child(2) { animation-delay: 30ms; }
+.corpoApp > :nth-child(3) { animation-delay: 60ms; }
+.corpoApp > :nth-child(4) { animation-delay: 90ms; }
+.corpoApp > :nth-child(5) { animation-delay: 120ms; }
+.corpoApp > :nth-child(6) { animation-delay: 150ms; }
+.corpoApp > :nth-child(n + 7) { animation-delay: 180ms; }
+.corpoApp > .acoes { animation-name: acoes-entra; }
+@keyframes tela-entra { from { opacity: 0; } }
+@keyframes item-entra { from { opacity: 0; transform: translateY(10px); } }
+@keyframes acoes-entra { from { opacity: 0; } }
+
+/* abas: a pílula verde desliza de uma aba para a outra */
+.app .abas { position: relative; isolation: isolate; }
+.app .abas::before {
+  content: ""; position: absolute; z-index: -1; top: 4px; bottom: 4px; left: 4px; width: calc(50% - 6px);
+  border-radius: 999px; background: var(--escuro); transition: translate 320ms var(--ease);
+}
+.app .abas[data-modo="agente"]::before { translate: calc(100% + 4px) 0; }
+.app .abas button.abaOn { background: transparent; }
+
+/* duração digitável dentro da pílula */
+.duracao { display: flex; align-items: baseline; justify-content: center; gap: 3px; min-width: 6ch; font-weight: 700; font-size: 13.5px; color: var(--tinta-app); cursor: text; }
+.duracao input {
+  width: 3.2ch; border: 0; padding: 4px 0; border-radius: 6px; background: transparent; text-align: right;
+  font: inherit; color: inherit; font-variant-numeric: tabular-nums; caret-color: var(--escuro);
+}
+.duracao input:focus { outline: 0; background: var(--tinta-verde); }
+.passo:focus-within { border-color: var(--neon-2); box-shadow: 0 0 0 3px rgb(0 219 0 / 0.22); }
+
+/* chips: o ícone dá um passo à direita no hover; o clique afunda */
+.exemplos button > i { transition: transform 200ms var(--ease), background-color 160ms; }
+.exemplos button:hover > i { transform: translateX(2px); }
+.exemplos button:active { transform: scale(0.985); }
+.passo button { transition: background-color 160ms, transform 120ms; }
+.passo button:active { transform: scale(0.9); }
+
+/* espera: o texto da fase troca com fade; a barra tem um brilho correndo */
+.troca { animation: item-entra 300ms var(--ease) both; }
+.app .barra { position: relative; }
+.app .barra i { position: relative; overflow: hidden; }
+.app .barra i::after {
+  content: ""; position: absolute; inset: 0; width: 40%;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.65), transparent);
+  animation: brilho 1.3s linear infinite;
+}
+@keyframes brilho { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+
+/* nota: o flash verde do "aprovado", o número subindo, a barra enchendo e o selo */
+.telaNota { position: relative; isolation: isolate; }
+.telaNota::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none; z-index: -1;
+  background: radial-gradient(70% 55% at 30% 40%, rgb(0 219 0 / 0.42), transparent 70%);
+  animation: aprovado 900ms ease-out both;
+}
+@keyframes aprovado { 0% { opacity: 0; } 18% { opacity: 1; } 100% { opacity: 0; } }
+.app .nota { animation: nota-entra 520ms cubic-bezier(0.2, 0.9, 0.2, 1) both; }
+@keyframes nota-entra { from { opacity: 0; transform: translateY(14px) scale(0.94); } }
+.medidor { height: 8px; margin-top: 12px; border-radius: 999px; background: var(--neutro); overflow: hidden; }
+.medidor i { display: block; height: 100%; border-radius: inherit; background: var(--neon); animation: enche 900ms cubic-bezier(0.2, 0.9, 0.2, 1) 120ms both; }
+@keyframes enche { from { width: 0; } }
+.selo {
+  align-self: flex-start; margin-top: 10px; padding: 5px 11px; border-radius: 999px;
+  background: var(--tinta-verde); color: var(--escuro); font-size: 12.5px; font-weight: 700;
+  animation: item-entra 340ms var(--ease) 700ms both;
+}
+.telaNota .notaDe { margin-top: 8px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  .corpoApp, .corpoApp > *, .troca, .app .nota, .medidor i, .selo, .telaNota::before, .app .barra i::after { animation: none; }
+  .app .abas::before { transition: none; }
+}
+
+/* ---------- tira impressa: só o pedaço que acabou de sair fica à vista ---------- */
+.tira {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-height: 240px;
+  overflow: hidden;
+  padding: 0 14px;
+  position: relative;
+}
+/* papel opaco: acima da altura visível ele se curva para trás (sombra, não transparência) */
+.tira[data-cheia="true"]::after {
+  content: ""; position: absolute; top: 0; left: 14px; right: 14px; height: 34px; pointer-events: none;
+  background: linear-gradient(to bottom, rgb(16 36 26 / 0.32), rgb(16 36 26 / 0.1) 45%, transparent);
+}
+/* o tranco do rasgo: puxa para cima, solta, a fenda morde */
+.rasgando { animation: tranco 160ms cubic-bezier(0.3, 0, 0.2, 1) both; }
+@keyframes tranco {
+  0% { transform: none; }
+  35% { transform: translateY(-9px) rotate(-1.2deg); }
+  65% { transform: translateY(3px) rotate(0.6deg); }
+  100% { transform: translateY(-2px); }
+}
+
+/* ---------- comprovante em foco ---------- */
+.foco {
+  position: fixed;
+  inset: 0;
+  z-index: 6;
+  display: grid;
+  justify-items: center;
+  align-content: safe center; /* papel mais alto que a tela (celular): começa pelo topo, não corta o cabeçalho */
+  gap: 18px;
+  padding: 24px 16px;
+  background: rgb(2 8 5 / 0.78);
+  overflow-y: auto;
+  animation: escurece 260ms var(--ease) both;
+}
+@keyframes escurece { from { background: rgb(2 8 5 / 0); } }
+.focoPapel { display: block; max-width: 100%; } /* precisa de caixa: display:contents anula o view-transition-name e o papel não voa */
+.fechar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgb(233 255 244 / 0.25);
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: rgb(2 8 5 / 0.6);
+  color: var(--papel);
+  font-size: 12px;
+  font-weight: 700;
+}
+.fechar:hover { border-color: var(--menta); }
+.fechar kbd {
+  font: inherit;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid rgb(233 255 244 / 0.3);
+  color: rgb(233 255 244 / 0.7);
+}
+.app button.retire { align-self: flex-start; border: 1px solid var(--borda-app); background: #fff; padding: 8px 14px 8px 10px; border-radius: 999px; cursor: pointer; transition: border-color 160ms; }
+.app button.retire:hover { border-color: var(--neon-2); }

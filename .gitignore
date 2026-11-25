@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/cache/
+data/*.db
+.pytest_cache/
+.env.local
+.deepeval/
+tests/evals/saidas.jsonl
+tests/evals/*.log
+tests/evals/juiz_uso.jsonl
+tests/evals/.uso_inicio_*
+tests/evals/resultados/*/deepeval.json
+web/.next/
+
+# estado de ferramentas (Claude Code, Impeccable, editor)
+.claude/
+.impeccable/
+.vscode/
+.ruff_cache

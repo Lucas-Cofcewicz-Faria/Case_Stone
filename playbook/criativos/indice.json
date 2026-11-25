@@ -1,0 +1,66 @@
+{
+  "1": {
+    "arquivo": "01_alimentacao.md",
+    "rotulo": "alimentacao",
+    "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar",
+    "segmento": "alimentacao",
+    "confianca": "alta",
+    "nota": 72,
+    "titulo": "Quanto cobrar por bolo? Aprenda a precificar sem perder clientes",
+    "versoes": [
+      72
+    ]
+  },
+  "2": {
+    "arquivo": "02_beleza.md",
+    "rotulo": "beleza",
+    "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta",
+    "segmento": "beleza",
+    "confianca": "baixa",
+    "nota": 34,
+    "titulo": "Agenda vazia nas terças e quartas? Isso é normal… até a gente te ensinar como mudar.",
+    "versoes": [
+      34,
+      20,
+      20
+    ]
+  },
+  "3": {
+    "arquivo": "03_varejo.md",
+    "rotulo": "varejo",
+    "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram",
+    "segmento": "varejo_e_vendas",
+    "confianca": "alta",
+    "nota": 76,
+    "titulo": "Você tá vendendo no Instagram… mas não está vendendo direito?",
+    "versoes": [
+      76
+    ]
+  },
+  "4": {
+    "arquivo": "04_servicos.md",
+    "rotulo": "servicos",
+    "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região",
+    "segmento": "servicos_e_outros",
+    "confianca": "baixa",
+    "nota": 55,
+    "titulo": "Prédios não querem você? Tá na hora de mudar o jeito que entra.",
+    "versoes": [
+      50,
+      32,
+      55
+    ]
+  },
+  "5": {
+    "arquivo": "05_autonomos.md",
+    "rotulo": "autonomos",
+    "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS",
+    "segmento": "artesanato_e_festas",
+    "confianca": "baixa",
+    "nota": 62,
+    "titulo": "Nota fiscal e DAS? Não é só 'fazer' — é 'fazer direito'.",
+    "versoes": [
+      62
+    ]
+  }
+}

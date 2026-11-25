@@ -1,0 +1,170 @@
+/* Stone Smart (rebrand 2025): corpo verde-limão injetado, moldura preta da tela com gota da câmera,
+   bloco da impressora no topo com o logo. Cores medidas da foto oficial em stone.com.br. */
+.objeto {
+  --limao-1: #5be34a;
+  --limao-2: #1fc436;
+  --limao-3: #12ad32;
+  --limao-4: #0a8a27;
+  --limao-5: #056a1c;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  --lx: 30%;
+  --ly: 10%;
+}
+
+/* sombra no balcão: deslocada para baixo, difusa */
+.sombra {
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  bottom: -30px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(0 0 0 / 0.9), transparent);
+  filter: blur(16px);
+}
+
+/* o comprovante nasce na fenda e cresce para cima */
+.acima {
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform-origin: 50% 100%;
+  transition: transform 700ms var(--ease);
+}
+
+/* cabeça da impressora: um bloco reto, pouco mais estreito que o corpo, com a área de aproximação no topo.
+   O papel sai pela fenda na emenda com o corpo e sobe por cima da cabeça, como na Stone Smart real. */
+.impressora {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 0;
+  height: 116px;
+  border-radius: 10px 10px 0 0;
+  background:
+    radial-gradient(90% 120% at var(--lx) 0%, rgb(255 255 255 / 0.22), transparent 55%),
+    linear-gradient(170deg, var(--limao-1) 0%, var(--limao-2) 45%, var(--limao-3) 100%);
+  box-shadow: inset 0 2px 0 rgb(255 255 255 / 0.35), inset 0 -14px 18px rgb(0 60 10 / 0.3);
+  z-index: 1;
+}
+/* rebaixo da área de aproximação, com o símbolo em relevo */
+.nfc {
+  position: absolute;
+  left: 50%;
+  top: 22px;
+  width: 132px;
+  height: 58px;
+  translate: -50% 0;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: linear-gradient(var(--limao-3), var(--limao-2));
+  box-shadow: inset 0 3px 6px rgb(0 60 10 / 0.45), inset 0 -1px 0 rgb(255 255 255 / 0.3), 0 1px 0 rgb(255 255 255 / 0.25);
+}
+.nfc svg { fill: none; stroke: var(--limao-5); stroke-width: 2.6; stroke-linecap: round; filter: drop-shadow(0 1px 0 rgb(255 255 255 / 0.3)); }
+.fenda {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 6px;
+  height: 7px;
+  border-radius: 1px;
+  background: #0c2a0f;
+  box-shadow: inset 0 2px 3px rgb(0 0 0 / 0.85), 0 1px 0 rgb(255 255 255 / 0.25);
+}
+/* borda de cima do corpo: passa por cima do pé do comprovante, que parece sair de dentro da fenda */
+.tampa {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  height: 8px;
+  border-radius: 4px 4px 0 0;
+  background: linear-gradient(var(--limao-1), var(--limao-2));
+  box-shadow: 0 -2px 4px rgb(0 50 10 / 0.35);
+  z-index: 4;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+  width: 80px;
+  height: auto;
+  translate: -50% 0;
+  /* em relevo: luz por cima, sombra por baixo, como o logo injetado na peça */
+  filter: drop-shadow(0 1px 0 rgb(255 255 255 / 0.35)) drop-shadow(0 -1px 0 rgb(0 50 10 / 0.35));
+}
+
+.frente {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 112px;
+  bottom: 0;
+  border-radius: 6px 6px 12px 12px;
+  background:
+    radial-gradient(110% 60% at var(--lx) var(--ly), rgb(255 255 255 / 0.2), transparent 60%),
+    linear-gradient(160deg, var(--limao-1) 0%, var(--limao-2) 22%, var(--limao-3) 60%, var(--limao-4) 100%);
+  box-shadow:
+    inset 0 2px 0 rgb(255 255 255 / 0.4),
+    inset 6px 0 10px -6px rgb(255 255 255 / 0.3),
+    inset -8px 0 14px -6px rgb(0 60 10 / 0.45),
+    inset 0 -16px 24px rgb(0 60 10 / 0.4),
+    0 34px 70px -24px rgb(0 0 0 / 0.85);
+  z-index: 2;
+}
+
+/* moldura preta fina da tela, quase sem cantos, com a câmera na borda de cima */
+.vidro {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 10px;
+  bottom: 40px;
+  border-radius: 4px;
+  padding: 12px 8px 8px;
+  background: #060807;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.05), 0 1px 0 rgb(255 255 255 / 0.35);
+}
+.vidro::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(125deg, rgb(255 255 255 / 0.07) 0%, transparent 30%);
+  pointer-events: none;
+  z-index: 3;
+}
+.camera {
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  translate: -50% 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #2b3c4a, #050607 70%);
+  z-index: 2;
+}
+
+.tela {
+  position: relative;
+  height: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #f3f6f4;
+}
+
+/* processando: as três ondas de aproximação acendem em sequência, como na espera do cartão */
+.nfcAtiva svg path:nth-of-type(n + 2) { animation: onda 1.2s ease-in-out infinite; }
+.nfcAtiva svg path:nth-of-type(3) { animation-delay: 0.15s; }
+.nfcAtiva svg path:nth-of-type(4) { animation-delay: 0.3s; }
+.nfcAtiva { box-shadow: inset 0 3px 6px rgb(0 60 10 / 0.45), inset 0 -1px 0 rgb(255 255 255 / 0.3), 0 0 0 2px rgb(140 255 120 / 0.35), 0 0 18px rgb(140 255 120 / 0.35); transition: box-shadow 300ms; }
+@keyframes onda { 0%, 100% { stroke: var(--limao-5); } 40% { stroke: #eaffdf; } }
+@media (prefers-reduced-motion: reduce) { .nfcAtiva svg path { animation: none; } }

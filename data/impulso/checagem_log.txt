@@ -1,0 +1,23 @@
+| criativo                                | grupo              |   ctr_pct |   nota |   padroes |   antipadroes |
+|:----------------------------------------|:-------------------|----------:|-------:|----------:|--------------:|
+| Ad01 · Estático                         | melhor_volume      |      2.87 |     73 |         0 |             0 |
+| Ad02 · Estático                         | melhor_volume      |      2.67 |     43 |         0 |             1 |
+| Ad04 · Estático (Qualificador)          | melhor_volume      |      2.06 |     91 |         0 |             0 |
+| Ad01 · Estático (Facebook)              | melhor_volume      |      3.27 |     73 |         0 |             0 |
+| Imagem Story                            | melhor_volume      |      3.04 |     32 |         0 |             1 |
+| Post "Empreendedor(a), queremos..."     | melhor_engajamento |      8.82 |     25 |         0 |             1 |
+| Post Segmentação Beleza                 | melhor_engajamento |      8.62 |     69 |         0 |             0 |
+| Post Festa Junina                       | melhor_engajamento |      8.43 |     47 |         0 |             0 |
+| Post "Vendeu? E agora?"                 | melhor_engajamento |      6.03 |     51 |         0 |             1 |
+| Post Chef Ruth                          | melhor_engajamento |      3.59 |     17 |         0 |             1 |
+| Post "Vender mais não é sorte"          | pior               |      0.77 |     57 |         0 |             0 |
+| Ad01 · Estático (Setembro)              | pior               |      0.82 |     42 |         0 |             1 |
+| Post Depoimento Cristina                | pior               |      0.82 |     11 |         0 |             1 |
+| Post "POV: você decidiu empreender"     | pior               |      0.97 |      9 |         0 |             2 |
+| Anúncio "Dinheiro entra, mas não sobra" | pior               |      1.06 |     59 |         0 |             1 |
+| Post "Para muitos empreendedores..."    | pior               |      1.28 |      9 |         0 |             1 |
+        count       mean        std   min    25%   50%    75%   max
+melhor                                                             
+False     6.0  31.166667  24.285112   9.0   9.50  26.5  53.25  59.0
+True     10.0  52.100000  23.927901  17.0  34.75  49.0  72.00  91.0
+AUC melhores vs piores: 0.75

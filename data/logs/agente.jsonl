@@ -1,0 +1,973 @@
+{"t": "2026-11-22T01:42:44", "evento": "entender", "pedido": "Criativo para uma confeitaria que vende bolos por encomenda e quer mais pedidos pelo WhatsApp", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos pelo WhatsApp", "publico": "clientes que buscam bolos personalizados (aniversários, eventos, presentes, etc.)"}}
+{"t": "2026-11-22T01:42:46", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T01:42:46", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T01:43:17", "evento": "gerar", "tentativa": 1, "segundos": 30.62, "titulo": "Bolo personalizado pra você?"}
+{"t": "2026-11-22T01:43:49", "evento": "avaliar", "tentativa": 1, "nota": 12, "sugestoes": ["duracao_faixa", "tema_principal", "pilar_impulso", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-22T01:44:19", "evento": "gerar", "tentativa": 2, "segundos": 30.34, "titulo": "Bolo personalizado pra você?"}
+{"t": "2026-11-22T01:44:20", "evento": "avaliar", "tentativa": 2, "nota": 24, "sugestoes": ["duracao_faixa", "tema_principal", "pilar_impulso", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-22T01:44:38", "evento": "gerar", "tentativa": 3, "segundos": 18.87, "titulo": "Bolo personalizado pra você? 🎂"}
+{"t": "2026-11-22T01:45:06", "evento": "avaliar", "tentativa": 3, "nota": 48, "sugestoes": ["tema_principal", "pilar_impulso", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T01:45:06", "evento": "responder", "nota_final": 48, "tentativas": 3}
+{"t": "2026-11-22T01:45:24", "evento": "entender", "pedido": "Criativo para uma confeitaria que vende bolos por encomenda e quer mais pedidos pelo WhatsApp", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos pelo WhatsApp", "publico": "clientes que buscam bolos personalizados (aniversários, eventos, presentes, etc.)"}}
+{"t": "2026-11-22T01:45:24", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T01:45:24", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T01:51:42", "evento": "gerar", "tentativa": 1, "segundos": 14.06, "titulo": "Bolo personalizado que ninguém vai acreditar que é feito em casa 🤯"}
+{"t": "2026-11-22T01:52:10", "evento": "avaliar", "tentativa": 1, "nota": 1, "sugestoes": ["duracao_faixa", "tema_principal", "tom", "tipo_hook", "pilar_impulso"]}
+{"t": "2026-11-22T01:52:35", "evento": "gerar", "tentativa": 2, "segundos": 24.63, "titulo": "Bolo personalizado que só você pode ter 🎂"}
+{"t": "2026-11-22T01:52:58", "evento": "avaliar", "tentativa": 2, "nota": 24, "sugestoes": ["duracao_faixa", "tema_principal", "pilar_impulso", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-22T01:53:25", "evento": "gerar", "tentativa": 3, "segundos": 27.11, "titulo": "Bolo que só você pode ter 🎂"}
+{"t": "2026-11-22T01:53:51", "evento": "avaliar", "tentativa": 3, "nota": 48, "sugestoes": ["tema_principal", "pilar_impulso", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T01:53:51", "evento": "responder", "nota_final": 48, "tentativas": 3}
+{"t": "2026-11-22T02:05:02", "evento": "entender", "pedido": "Criativo para um salão de beleza de bairro que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza de bairro", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres do bairro, clientes leais e novos potenciais (25-55 anos, busca por beleza acessível e atendimento rápido, valoriza agendamento flexível e promoções locais)"}}
+{"t": "2026-11-22T02:05:03", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T02:05:03", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T02:05:25", "evento": "gerar", "tentativa": 1, "segundos": 21.94, "titulo": "Agenda cheia de terça e quarta? É só pedir!"}
+{"t": "2026-11-22T02:05:54", "evento": "avaliar", "tentativa": 1, "nota": 71, "sugestoes": ["pilar_impulso", "tema_principal", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-22T02:05:54", "evento": "responder", "nota_final": 71, "tentativas": 1}
+{"t": "2026-11-22T02:23:55", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "artesanato_e_festas", "negocio": "confeitaria de bairro", "objetivo": "aumentar pedidos por encomenda", "publico": "familias, aniversariantes, eventos locais, redes sociais de bairro"}}
+{"t": "2026-11-22T02:23:55", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T02:23:55", "evento": "referencias", "n": 1, "ids": ["Ty69FZdiMzI"]}
+{"t": "2026-11-22T02:24:47", "evento": "gerar", "tentativa": 1, "segundos": 16.78, "titulo": "Bolo quebrado? A gente não joga fora! 🍪"}
+{"t": "2026-11-22T02:25:02", "evento": "avaliar", "tentativa": 1, "nota": 59, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T02:25:21", "evento": "gerar", "tentativa": 2, "segundos": 18.75, "titulo": "Bolo com trincos? A gente vende com orgulho! 🍪"}
+{"t": "2026-11-22T02:25:35", "evento": "avaliar", "tentativa": 2, "nota": 21, "sugestoes": ["tema_principal", "tom", "formato_video", "tipo_hook", "pilar_impulso"]}
+{"t": "2026-11-22T02:25:54", "evento": "gerar", "tentativa": 3, "segundos": 19.02, "titulo": "Bolo com trincos? A gente vende com orgulho! 🍪"}
+{"t": "2026-11-22T02:25:54", "evento": "avaliar", "tentativa": 3, "nota": 21, "sugestoes": ["tema_principal", "tom", "formato_video", "tipo_hook", "pilar_impulso"]}
+{"t": "2026-11-22T02:25:54", "evento": "responder", "nota_final": 59, "tentativas": 3}
+{"t": "2026-11-22T17:00:13", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "artesanato_e_festas", "negocio": "confeitaria de bairro", "objetivo": "aumentar pedidos por encomenda", "publico": "familias, aniversariantes, eventos locais, redes sociais de bairro"}}
+{"t": "2026-11-22T17:00:13", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:00:13", "evento": "referencias", "n": 1, "ids": ["Ty69FZdiMzI"]}
+{"t": "2026-11-22T17:00:13", "evento": "gerar", "tentativa": 1, "segundos": 16.78, "titulo": "Bolo quebrado? A gente não joga fora! 🍪"}
+{"t": "2026-11-22T17:00:13", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-22T17:00:13", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T17:01:20", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "artesanato_e_festas", "negocio": "confeitaria de bairro", "objetivo": "aumentar pedidos por encomenda", "publico": "familias, aniversariantes, eventos locais, redes sociais de bairro"}}
+{"t": "2026-11-22T17:01:20", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:01:20", "evento": "referencias", "n": 1, "ids": ["Ty69FZdiMzI"]}
+{"t": "2026-11-22T17:01:20", "evento": "gerar", "tentativa": 1, "segundos": 16.78, "titulo": "Bolo quebrado? A gente não joga fora! 🍪"}
+{"t": "2026-11-22T17:01:20", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-22T17:01:20", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T17:04:52", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "clientes que buscam agendamentos nas semanas intermediárias (terça e quarta-feira) para evitar o fim de semana ou agilizar o atendimento com antecedência"}}
+{"t": "2026-11-22T17:04:52", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:04:52", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T17:05:13", "evento": "gerar", "tentativa": 1, "segundos": 20.86, "titulo": "Terça e quarta são as melhores pra agendar! 🤫"}
+{"t": "2026-11-22T17:05:36", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T17:05:36", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T17:12:36", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "clientes que buscam agendamentos nas semanas intermediárias (terça e quarta-feira) para evitar o fim de semana ou agilizar o atendimento com antecedência"}}
+{"t": "2026-11-22T17:12:36", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:12:36", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T17:12:36", "evento": "gerar", "tentativa": 1, "segundos": 20.86, "titulo": "Terça e quarta são as melhores pra agendar! 🤫"}
+{"t": "2026-11-22T17:12:37", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T17:12:37", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T17:19:43", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "clientes que buscam agendamentos nas semanas intermediárias (terça e quarta-feira) para evitar o fim de semana ou agilizar o atendimento com antecedência"}}
+{"t": "2026-11-22T17:19:43", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:19:43", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T17:19:43", "evento": "gerar", "tentativa": 1, "segundos": 20.86, "titulo": "Terça e quarta são as melhores pra agendar! 🤫"}
+{"t": "2026-11-22T17:19:44", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T17:19:44", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T17:24:03", "evento": "entender", "pedido": "Criativo para um MEI de manutenção de ar-condicionado que quer mais orçamentos", "plano": {"segmento": "mei_e_contabilidade", "negocio": "Manutenção de ar-condicionado", "objetivo": "Aumentar orçamentos", "publico": "Pessoas que precisam de manutenção de ar-condicionado (residenciais, comerciais, empresas, condomínios)."}}
+{"t": "2026-11-22T17:24:03", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T17:24:03", "evento": "referencias", "n": 5, "ids": ["Vpu-A9oycyQ", "dzA8ezGR3Xg", "AmTZBfFv6kc", "QLbDKF9JsVY", "vbSgwu0DZl8"]}
+{"t": "2026-11-22T17:24:23", "evento": "gerar", "tentativa": 1, "segundos": 20.0, "titulo": "Você já pensou em manter seu ar-condicionado SEM pagar mais que o necessário? 🤔"}
+{"t": "2026-11-22T17:24:37", "evento": "avaliar", "tentativa": 1, "nota": 70, "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-22T17:25:09", "evento": "entender", "pedido": "Criativo para um MEI de manutenção de ar-condicionado que quer mais orçamentos", "plano": {"segmento": "mei_e_contabilidade", "negocio": "Manutenção de ar-condicionado", "objetivo": "Aumentar orçamentos", "publico": "Pessoas que precisam de manutenção de ar-condicionado (residenciais, comerciais, empresas, condomínios)."}}
+{"t": "2026-11-22T17:25:09", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T17:25:09", "evento": "referencias", "n": 5, "ids": ["Vpu-A9oycyQ", "dzA8ezGR3Xg", "AmTZBfFv6kc", "QLbDKF9JsVY", "vbSgwu0DZl8"]}
+{"t": "2026-11-22T17:25:09", "evento": "gerar", "tentativa": 1, "segundos": 20.0, "titulo": "Você já pensou em manter seu ar-condicionado SEM pagar mais que o necessário? 🤔"}
+{"t": "2026-11-22T17:25:09", "evento": "avaliar", "tentativa": 1, "nota": 70, "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-22T17:25:09", "evento": "responder", "nota_final": 70, "tentativas": 1}
+{"t": "2026-11-22T17:25:42", "evento": "entender", "pedido": "Criativo para uma barbearia de bairro que quer encher o sábado de manhã", "plano": {"segmento": "beleza", "negocio": "barbearia de bairro", "objetivo": "encher o sábado de manhã", "publico": "homens jovens e adultos, clientes locais, amigos e familiares que buscam um ambiente descontraído e profissional"}}
+{"t": "2026-11-22T17:25:42", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:25:42", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T17:26:03", "evento": "gerar", "tentativa": 1, "segundos": 21.25, "titulo": "Sábado de manhã na barbearia do bairro — e aí, já tá com o corte marcado?"}
+{"t": "2026-11-22T17:26:20", "evento": "avaliar", "tentativa": 1, "nota": 85, "sugestoes": ["tema_principal", "legenda_tamanho", "forca_hook_0a10", "tipo_cta", "pilar_impulso"]}
+{"t": "2026-11-22T17:26:20", "evento": "responder", "nota_final": 85, "tentativas": 1}
+{"t": "2026-11-22T17:31:23", "evento": "entender", "pedido": "Criativo para uma barbearia de bairro que quer encher o sábado de manhã", "plano": {"segmento": "beleza", "negocio": "barbearia de bairro", "objetivo": "encher o sábado de manhã", "publico": "homens jovens e adultos, clientes locais, amigos e familiares que buscam um ambiente descontraído e profissional"}}
+{"t": "2026-11-22T17:31:23", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:31:23", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T17:31:23", "evento": "gerar", "tentativa": 1, "segundos": 21.25, "titulo": "Sábado de manhã na barbearia do bairro — e aí, já tá com o corte marcado?"}
+{"t": "2026-11-22T17:31:23", "evento": "avaliar", "tentativa": 1, "nota": 85, "sugestoes": ["tema_principal", "legenda_tamanho", "forca_hook_0a10", "tipo_cta", "pilar_impulso"]}
+{"t": "2026-11-22T17:31:23", "evento": "responder", "nota_final": 85, "tentativas": 1}
+{"t": "2026-11-22T17:56:52", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "artesanato_e_festas", "negocio": "confeitaria de bairro", "objetivo": "aumentar pedidos por encomenda", "publico": "familias, aniversariantes, eventos locais, redes sociais de bairro"}}
+{"t": "2026-11-22T17:56:52", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T17:56:52", "evento": "referencias", "n": 1, "ids": ["Ty69FZdiMzI"]}
+{"t": "2026-11-22T17:56:52", "evento": "gerar", "tentativa": 1, "segundos": 16.78, "titulo": "Bolo quebrado? A gente não joga fora! 🍪"}
+{"t": "2026-11-22T17:56:52", "evento": "avaliar", "tentativa": 1, "nota": 63, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-22T17:56:52", "evento": "responder", "nota_final": 63, "tentativas": 1}
+{"t": "2026-11-22T20:17:46", "evento": "entender", "pedido": "Criativo para um MEI de manutenção de ar-condicionado que quer mais orçamentos", "plano": {"segmento": "mei_e_contabilidade", "negocio": "Manutenção de ar-condicionado", "objetivo": "Aumentar orçamentos", "publico": "Pessoas que precisam de manutenção de ar-condicionado (residenciais, comerciais, empresas, condomínios)."}}
+{"t": "2026-11-22T20:17:46", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:17:46", "evento": "referencias", "n": 5, "ids": ["Vpu-A9oycyQ", "dzA8ezGR3Xg", "AmTZBfFv6kc", "QLbDKF9JsVY", "vbSgwu0DZl8"]}
+{"t": "2026-11-22T20:17:46", "evento": "gerar", "tentativa": 1, "segundos": 20.0, "titulo": "Você já pensou em manter seu ar-condicionado SEM pagar mais que o necessário? 🤔"}
+{"t": "2026-11-22T20:17:46", "evento": "avaliar", "tentativa": 1, "nota": 70, "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-22T20:17:46", "evento": "responder", "nota_final": 70, "tentativas": 1}
+{"t": "2026-11-22T20:20:44", "evento": "entender", "pedido": "Criativo para uma pizzaria delivery que quer vender mais na segunda-feira", "plano": {"segmento": "alimentacao", "negocio": "pizzaria delivery", "objetivo": "vender mais na segunda-feira", "publico": "clientes que buscam refeições rápidas e saborosas no início da semana"}}
+{"t": "2026-11-22T20:20:44", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:20:44", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T20:21:03", "evento": "gerar", "tentativa": 1, "segundos": 19.02, "titulo": "Segunda-feira é o dia que a gente mais quer pizza… mas a gente não quer pagar caro!"}
+{"t": "2026-11-22T20:21:19", "evento": "avaliar", "tentativa": 1, "nota": 10, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-22T20:21:44", "evento": "gerar", "tentativa": 2, "segundos": 25.06, "titulo": "Segunda-feira é o dia que a gente mais quer pizza… mas a gente não quer pagar caro!"}
+{"t": "2026-11-22T20:22:02", "evento": "avaliar", "tentativa": 2, "nota": 22, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-22T20:22:36", "evento": "gerar", "tentativa": 3, "segundos": 33.64, "titulo": "Segunda-feira é o dia que a gente mais quer pizza… mas a gente não quer pagar caro!"}
+{"t": "2026-11-22T20:22:53", "evento": "avaliar", "tentativa": 3, "nota": 45, "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-22T20:22:53", "evento": "responder", "nota_final": 45, "tentativas": 3}
+{"t": "2026-11-22T20:32:45", "evento": "entender", "pedido": "Criativo para uma oficina mecânica de bairro que quer mais clientes para revisão", "plano": {"segmento": "varejo_e_vendas", "negocio": "oficina mecânica de bairro", "objetivo": "atrair mais clientes para revisões", "publico": "motoristas de bairro, motoristas de aplicativo, motoristas de moto, proprietários de veículos de baixa quilometragem, famílias que precisam de manutenção regular"}}
+{"t": "2026-11-22T20:32:45", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:32:45", "evento": "referencias", "n": 5, "ids": ["ea01v_tH1JY", "e_hmaDCWkjQ", "9owWPAOSP5M", "GdlOkdJuKvo", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-22T20:33:22", "evento": "gerar", "tentativa": 1, "segundos": 36.92, "titulo": "Revisão de carro em 15 minutos? É só isso que você precisa!"}
+{"t": "2026-11-22T20:33:42", "evento": "avaliar", "tentativa": 1, "nota": 51, "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-22T20:34:17", "evento": "gerar", "tentativa": 2, "segundos": 34.73, "titulo": "Revisão de carro em 15 minutos? É só isso que você precisa!"}
+{"t": "2026-11-22T20:34:35", "evento": "avaliar", "tentativa": 2, "nota": 51, "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-22T20:36:12", "evento": "gerar", "tentativa": 3, "segundos": 96.9, "titulo": "Revisão de carro em 15 minutos? É só isso que você precisa!"}
+{"t": "2026-11-22T20:36:12", "evento": "avaliar", "tentativa": 3, "nota": 51, "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-22T20:43:19", "evento": "entender", "pedido": "Criativo para uma lavanderia de bairro que quer mais clientes de delivery", "plano": {"segmento": "alimentacao", "negocio": "lavanderia_de_bairro", "objetivo": "aumentar_clientes_de_delivery", "publico": "clientes_de_bairro_que_buscam_conveniencia_e_rapidez_na_lavagem_de_roupas"}}
+{"t": "2026-11-22T20:43:19", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:43:19", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T20:43:41", "evento": "gerar", "tentativa": 1, "segundos": 21.41, "titulo": "Lavanderia de Bairro: Quem tá lavando sua roupa hoje?"}
+{"t": "2026-11-22T20:44:01", "evento": "avaliar", "tentativa": 1, "nota": 46, "sugestoes": ["duracao_faixa", "tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video"]}
+{"t": "2026-11-22T20:44:24", "evento": "gerar", "tentativa": 2, "segundos": 23.63, "titulo": "Lavanderia de Bairro: Quem tá lavando sua roupa hoje?"}
+{"t": "2026-11-22T20:44:45", "evento": "avaliar", "tentativa": 2, "nota": 48, "sugestoes": ["duracao_faixa", "tema_principal", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T20:45:08", "evento": "gerar", "tentativa": 3, "segundos": 22.48, "titulo": "Lavanderia de Bairro: Quem tá lavando sua roupa hoje?"}
+{"t": "2026-11-22T20:45:08", "evento": "avaliar", "tentativa": 3, "nota": 74, "sugestoes": ["tema_principal", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso", "formato_video"]}
+{"t": "2026-11-22T20:45:08", "evento": "responder", "nota_final": 74, "tentativas": 3}
+{"t": "2026-11-22T20:52:04", "evento": "entender", "pedido": "Criativo para uma lavanderia de bairro que quer mais clientes de delivery", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia", "objetivo": "aumentar clientes de delivery", "publico": "clientes de bairro que precisam de serviço rápido e conveniente"}}
+{"t": "2026-11-22T20:52:09", "evento": "entender", "pedido": "Criativo para um MEI de manutenção de ar-condicionado que quer mais orçamentos", "plano": {"segmento": "servicos_e_outros", "negocio": "manutenção de ar-condicionado", "objetivo": "gerar mais orçamentos", "publico": "clientes residenciais e comerciais que precisam de manutenção preventiva ou corretiva"}}
+{"t": "2026-11-22T20:52:35", "evento": "entender", "pedido": "Criativo para uma oficina mecânica de bairro que quer mais clientes para revisão", "plano": {"segmento": "servicos_e_outros", "negocio": "oficina mecânica", "objetivo": "atrair mais clientes para revisão", "publico": "motoristas de bairro, motoristas de aplicativo, motoristas de moto, proprietários de veículos de baixa quilometragem"}}
+{"t": "2026-11-22T20:52:51", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos por encomenda", "publico": "clientes locais e vizinhos do bairro"}}
+{"t": "2026-11-22T20:52:55", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres que buscam beleza e cuidado com o tempo limitado"}}
+{"t": "2026-11-22T20:53:00", "evento": "entender", "pedido": "Criativo para uma pizzaria delivery que quer vender mais na segunda-feira", "plano": {"segmento": "alimentacao", "negocio": "pizzaria delivery", "objetivo": "vender mais na segunda-feira", "publico": "clientes que buscam refeições rápidas e saborosas no início da semana"}}
+{"t": "2026-11-22T20:56:01", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos por encomenda", "publico": "clientes locais e vizinhos do bairro"}}
+{"t": "2026-11-22T20:56:01", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:56:01", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T20:56:17", "evento": "gerar", "tentativa": 1, "segundos": 15.93, "titulo": "Bolo de limão que a vizinha pediu pra mim 😅"}
+{"t": "2026-11-22T20:56:31", "evento": "avaliar", "tentativa": 1, "nota": 19, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T20:56:46", "evento": "gerar", "tentativa": 2, "segundos": 15.32, "titulo": "Bolo pra vizinha que pediu só 3 dias atrás 😅"}
+{"t": "2026-11-22T20:57:01", "evento": "avaliar", "tentativa": 2, "nota": 30, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T20:57:16", "evento": "gerar", "tentativa": 3, "segundos": 15.32, "titulo": "Bolo pra vizinha que pediu só 3 dias atrás 😅"}
+{"t": "2026-11-22T20:57:17", "evento": "avaliar", "tentativa": 3, "nota": 56, "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-22T20:57:17", "evento": "responder", "nota_final": 56, "tentativas": 3}
+{"t": "2026-11-22T20:57:29", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos pelo WhatsApp", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos pelo WhatsApp", "publico": "clientes de bairro que buscam bolos por encomenda"}}
+{"t": "2026-11-22T20:57:29", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-22T20:57:29", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-22T20:57:48", "evento": "gerar", "tentativa": 1, "segundos": 18.57, "titulo": "Bolo de limão trufado só pra você 🍋"}
+{"t": "2026-11-22T20:58:02", "evento": "avaliar", "tentativa": 1, "nota": 18, "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tema_principal", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T20:58:20", "evento": "gerar", "tentativa": 2, "segundos": 18.15, "titulo": "Bolo trufado de limão siciliano só pra você 🍋"}
+{"t": "2026-11-22T20:58:34", "evento": "avaliar", "tentativa": 2, "nota": 32, "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tema_principal", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-22T20:58:52", "evento": "gerar", "tentativa": 3, "segundos": 18.26, "titulo": "Bolo trufado de limão siciliano só pra você 🍋"}
+{"t": "2026-11-22T20:58:53", "evento": "avaliar", "tentativa": 3, "nota": 58, "sugestoes": ["usa_linguagem_regional", "tema_principal", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-22T20:58:53", "evento": "responder", "nota_final": 58, "tentativas": 3}
+{"t": "2026-11-22T20:59:53", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres que buscam beleza e cuidado com o tempo limitado"}}
+{"t": "2026-11-22T20:59:53", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-22T20:59:53", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-22T21:00:11", "evento": "gerar", "tentativa": 1, "segundos": 18.24, "titulo": "Terça e quarta? A gente tá cheia… mas você ainda pode entrar!"}
+{"t": "2026-11-22T21:00:25", "evento": "avaliar", "tentativa": 1, "nota": 86, "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-22T21:00:25", "evento": "responder", "nota_final": 86, "tentativas": 1}
+{"t": "2026-11-23T14:12:30", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres que buscam beleza e cuidado com o tempo limitado"}}
+{"t": "2026-11-23T14:12:30", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T14:12:30", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T14:12:30", "evento": "gerar", "tentativa": 1, "segundos": 18.24, "titulo": "Terça e quarta? A gente tá cheia… mas você ainda pode entrar!"}
+{"t": "2026-11-23T14:12:30", "evento": "avaliar", "tentativa": 1, "nota": 86, "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T14:12:30", "evento": "responder", "nota_final": 86, "tentativas": 1}
+{"t": "2026-11-23T14:14:01", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres que buscam beleza e cuidado com o tempo limitado"}}
+{"t": "2026-11-23T14:14:01", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T14:14:01", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T14:14:01", "evento": "gerar", "tentativa": 1, "segundos": 18.24, "titulo": "Terça e quarta? A gente tá cheia… mas você ainda pode entrar!"}
+{"t": "2026-11-23T14:14:01", "evento": "avaliar", "tentativa": 1, "nota": 86, "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T14:14:01", "evento": "responder", "nota_final": 86, "tentativas": 1}
+{"t": "2026-11-23T15:09:10", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda e quer mais pedidos", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos por encomenda", "publico": "clientes locais e vizinhos do bairro"}}
+{"t": "2026-11-23T15:09:19", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T15:09:19", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T15:12:25", "evento": "entender", "pedido": "Criativo para um salão de beleza que quer encher a agenda de terça e quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda de terça e quarta", "publico": "mulheres que buscam beleza e cuidado com o tempo limitado"}}
+{"t": "2026-11-23T15:12:28", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T15:12:28", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T15:12:28", "evento": "gerar", "tentativa": 1, "segundos": 18.24, "titulo": "Terça e quarta? A gente tá cheia… mas você ainda pode entrar!"}
+{"t": "2026-11-23T15:12:29", "evento": "avaliar", "tentativa": 1, "nota": 86, "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T15:12:29", "evento": "responder", "nota_final": 86, "tentativas": 1}
+{"t": "2026-11-23T20:10:38", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda pelo WhatsApp e quer receber mais pedidos para festas de aniversário", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos de bolos por encomenda, especialmente para festas de aniversário", "publico": "famílias, aniversariantes, organizadores de festas de bairro"}}
+{"t": "2026-11-23T20:10:39", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:10:39", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:10:52", "evento": "gerar", "tentativa": 1, "segundos": 13.0, "titulo": "Bolo de aniversário que a gente NÃO pode deixar de fazer!"}
+{"t": "2026-11-23T20:11:14", "evento": "avaliar", "tentativa": 1, "nota": 21, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-23T20:11:26", "evento": "gerar", "tentativa": 2, "segundos": 12.32, "titulo": "Bolo de aniversário que a gente NÃO pode deixar de fazer!"}
+{"t": "2026-11-23T20:11:26", "evento": "avaliar", "tentativa": 2, "nota": 36, "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-23T20:11:39", "evento": "gerar", "tentativa": 3, "segundos": 12.55, "titulo": "Bolo de aniversário que a gente NÃO pode deixar de fazer!"}
+{"t": "2026-11-23T20:11:39", "evento": "avaliar", "tentativa": 3, "nota": 62, "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-23T20:11:39", "evento": "responder", "nota_final": 62, "tentativas": 3}
+{"t": "2026-11-23T20:11:44", "evento": "entender", "pedido": "Criativo para um salão de beleza pequeno que quer encher a agenda de terça e quarta, os dias mais vazios da semana", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda nos dias mais vazios da semana (terça e quarta)", "publico": "clientes locais que buscam agilidade, valor e promoções nas semanas intermediárias"}}
+{"t": "2026-11-23T20:11:44", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:11:44", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:12:03", "evento": "gerar", "tentativa": 1, "segundos": 19.19, "titulo": "Terça e quarta? Aqui é dia de beleza sem burocracia!"}
+{"t": "2026-11-23T20:12:24", "evento": "avaliar", "tentativa": 1, "nota": 75, "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T20:12:24", "evento": "responder", "nota_final": 75, "tentativas": 1}
+{"t": "2026-11-23T20:12:29", "evento": "entender", "pedido": "Criativo para uma loja de roupas femininas de bairro que também vende pelo Instagram e quer que as clientes perguntem pelas peças novas", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas femininas", "objetivo": "fomentar perguntas sobre peças novas", "publico": "mulheres do bairro e seguidoras no Instagram"}}
+{"t": "2026-11-23T20:12:29", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:12:29", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "e_hmaDCWkjQ", "ea01v_tH1JY", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-23T20:13:00", "evento": "gerar", "tentativa": 1, "segundos": 30.52, "titulo": "Você já pensou em ter uma loja de roupas no seu bairro?"}
+{"t": "2026-11-23T20:13:15", "evento": "avaliar", "tentativa": 1, "nota": 35, "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T20:13:45", "evento": "gerar", "tentativa": 2, "segundos": 30.25, "titulo": "Você já pensou em ter uma loja de roupas no seu bairro?"}
+{"t": "2026-11-23T20:13:46", "evento": "avaliar", "tentativa": 2, "nota": 35, "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T20:14:16", "evento": "gerar", "tentativa": 3, "segundos": 29.87, "titulo": "Você já pensou em ter uma loja de roupas no seu bairro?"}
+{"t": "2026-11-23T20:14:16", "evento": "avaliar", "tentativa": 3, "nota": 35, "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T20:14:16", "evento": "responder", "nota_final": 35, "tentativas": 3}
+{"t": "2026-11-23T20:14:21", "evento": "entender", "pedido": "Criativo para uma lavanderia de bairro que lava e passa roupa e quer conquistar clientes que moram em apartamento perto da loja", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro que lava e passa roupa", "objetivo": "conquistar clientes de apartamentos próximos à loja", "publico": "moradores de apartamentos em bairros residenciais próximos à lavanderia"}}
+{"t": "2026-11-23T20:14:21", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:14:21", "evento": "referencias", "n": 5, "ids": ["WgsDC2K8Ufk", "m2F9Yu4oqe8", "6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw"]}
+{"t": "2026-11-23T20:14:42", "evento": "gerar", "tentativa": 1, "segundos": 20.17, "titulo": "Lavanderia de Bairro que NÃO Pede Mais Conta 🧺"}
+{"t": "2026-11-23T20:14:59", "evento": "avaliar", "tentativa": 1, "nota": 79, "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T20:14:59", "evento": "responder", "nota_final": 79, "tentativas": 1}
+{"t": "2026-11-23T20:15:04", "evento": "entender", "pedido": "Criativo para uma artesã autônoma, MEI, que faz lembrancinhas personalizadas de maternidade e quer receber encomendas de gestantes", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesanato", "objetivo": "receber encomendas de gestantes", "publico": "gestantes e futuros pais"}}
+{"t": "2026-11-23T20:15:04", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:15:04", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T20:15:24", "evento": "gerar", "tentativa": 1, "segundos": 20.52, "titulo": "Só pra vocês, gestantes: esse bolo é pra mim, mas eu quero que vocês também tenham!"}
+{"t": "2026-11-23T20:15:38", "evento": "avaliar", "tentativa": 1, "nota": 55, "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "forca_hook_0a10", "formato_video"]}
+{"t": "2026-11-23T20:16:02", "evento": "gerar", "tentativa": 2, "segundos": 23.73, "titulo": "Bolo pra gestante que tá cansada de bolo de festa... e quer algo que dure!"}
+{"t": "2026-11-23T20:16:16", "evento": "avaliar", "tentativa": 2, "nota": 74, "sugestoes": ["tema_principal", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso", "formato_video"]}
+{"t": "2026-11-23T20:16:16", "evento": "responder", "nota_final": 74, "tentativas": 2}
+{"t": "2026-11-23T20:16:35", "evento": "entender", "pedido": "Criativo para uma confeitaria de bairro que vende bolos por encomenda pelo WhatsApp e quer receber mais pedidos para festas de aniversário", "plano": {"segmento": "alimentacao", "negocio": "confeitaria", "objetivo": "aumentar pedidos de bolos por encomenda para festas de aniversário", "publico": "famílias, mães, organizadoras de festas, amigos que querem surpreender"}}
+{"t": "2026-11-23T20:16:36", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:16:36", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:16:55", "evento": "gerar", "tentativa": 1, "segundos": 18.95, "titulo": "Bolo de aniversário que a gente não pode deixar de pedir…"}
+{"t": "2026-11-23T20:17:12", "evento": "avaliar", "tentativa": 1, "nota": 5, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["duracao_faixa", "tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-23T20:17:31", "evento": "gerar", "tentativa": 2, "segundos": 18.37, "titulo": "Bolo que a gente só pede pra quem merece…"}
+{"t": "2026-11-23T20:17:47", "evento": "avaliar", "tentativa": 2, "nota": 13, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["duracao_faixa", "tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-23T20:18:06", "evento": "gerar", "tentativa": 3, "segundos": 18.4, "titulo": "Bolo que a gente só pede pra quem merece…"}
+{"t": "2026-11-23T20:18:06", "evento": "avaliar", "tentativa": 3, "nota": 30, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-23T20:18:06", "evento": "responder", "nota_final": 30, "tentativas": 3}
+{"t": "2026-11-23T20:18:11", "evento": "entender", "pedido": "Criativo para um salão de beleza pequeno que quer encher a agenda de terça e quarta, os dias mais vazios da semana", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "encher a agenda nos dias mais vazios da semana (terça e quarta)", "publico": "clientes locais que buscam agilidade, valor e promoções nas semanas intermediárias"}}
+{"t": "2026-11-23T20:18:11", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:18:11", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:18:33", "evento": "gerar", "tentativa": 1, "segundos": 21.96, "titulo": "Terça e quarta, o salão tá mais barato… mas só pra quem sabe pedir!"}
+{"t": "2026-11-23T20:18:49", "evento": "avaliar", "tentativa": 1, "nota": 71, "problemas": ["a legenda só repete o título: escreva 2 a 4 frases novas que terminem no pedido", "o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "pilar_impulso", "formato_video"]}
+{"t": "2026-11-23T20:19:12", "evento": "gerar", "tentativa": 2, "segundos": 23.12, "titulo": "Terça e quarta, o salão tá mais barato… mas você tá sabendo aproveitar?"}
+{"t": "2026-11-23T20:19:28", "evento": "avaliar", "tentativa": 2, "nota": 86, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:19:51", "evento": "gerar", "tentativa": 3, "segundos": 22.95, "titulo": "Terça e quarta, o salão tá mais barato… mas você tá sabendo aproveitar?"}
+{"t": "2026-11-23T20:20:08", "evento": "avaliar", "tentativa": 3, "nota": 86, "problemas": [], "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:20:08", "evento": "responder", "nota_final": 86, "tentativas": 3}
+{"t": "2026-11-23T20:20:13", "evento": "entender", "pedido": "Criativo para uma loja de roupas femininas de bairro que também vende pelo Instagram e quer que as clientes perguntem pelas peças novas", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas femininas", "objetivo": "fomentar perguntas sobre peças novas", "publico": "mulheres do bairro e seguidoras no Instagram"}}
+{"t": "2026-11-23T20:20:13", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:20:13", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "e_hmaDCWkjQ", "ea01v_tH1JY", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-23T20:20:34", "evento": "gerar", "tentativa": 1, "segundos": 21.15, "titulo": "Você já pensou em ter essa peça na sua coleção?"}
+{"t": "2026-11-23T20:20:50", "evento": "avaliar", "tentativa": 1, "nota": 74, "problemas": [], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:20:50", "evento": "responder", "nota_final": 74, "tentativas": 1}
+{"t": "2026-11-23T20:20:55", "evento": "entender", "pedido": "Criativo para uma lavanderia de bairro que lava e passa roupa e quer conquistar clientes que moram em apartamento perto da loja", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro que lava e passa roupa", "objetivo": "conquistar clientes de apartamentos próximos à loja", "publico": "moradores de apartamentos em bairros residenciais próximos à lavanderia"}}
+{"t": "2026-11-23T20:20:56", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:20:56", "evento": "referencias", "n": 5, "ids": ["WgsDC2K8Ufk", "m2F9Yu4oqe8", "6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw"]}
+{"t": "2026-11-23T20:21:14", "evento": "gerar", "tentativa": 1, "segundos": 18.69, "titulo": "Lava e passa na sua porta? 🧺"}
+{"t": "2026-11-23T20:21:28", "evento": "avaliar", "tentativa": 1, "nota": 63, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-23T20:21:46", "evento": "gerar", "tentativa": 2, "segundos": 17.11, "titulo": "Lava e passa na sua porta? 🧺"}
+{"t": "2026-11-23T20:21:46", "evento": "avaliar", "tentativa": 2, "nota": 63, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-23T20:22:03", "evento": "gerar", "tentativa": 3, "segundos": 17.6, "titulo": "Lava e passa na sua porta? 🧺"}
+{"t": "2026-11-23T20:22:18", "evento": "avaliar", "tentativa": 3, "nota": 63, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tipo_hook", "legenda_tamanho", "forca_hook_0a10", "pilar_impulso"]}
+{"t": "2026-11-23T20:22:18", "evento": "responder", "nota_final": 63, "tentativas": 3}
+{"t": "2026-11-23T20:22:22", "evento": "entender", "pedido": "Criativo para uma artesã autônoma, MEI, que faz lembrancinhas personalizadas de maternidade e quer receber encomendas de gestantes", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesanato", "objetivo": "receber encomendas de gestantes", "publico": "gestantes e futuros pais"}}
+{"t": "2026-11-23T20:22:22", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:22:22", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T20:22:42", "evento": "gerar", "tentativa": 1, "segundos": 20.12, "titulo": "Só pra vocês que estão com o coração cheio de amor…"}
+{"t": "2026-11-23T20:23:01", "evento": "avaliar", "tentativa": 1, "nota": 57, "problemas": ["a legenda só repete o título: escreva 2 a 4 frases novas que terminem no pedido"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso", "formato_video"]}
+{"t": "2026-11-23T20:23:26", "evento": "gerar", "tentativa": 2, "segundos": 24.86, "titulo": "Presente pra gestação que vai além do que você vê…"}
+{"t": "2026-11-23T20:23:42", "evento": "avaliar", "tentativa": 2, "nota": 45, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-23T20:24:07", "evento": "gerar", "tentativa": 3, "segundos": 25.32, "titulo": "Presente pra gestação que tá na sua cabeça…"}
+{"t": "2026-11-23T20:24:29", "evento": "avaliar", "tentativa": 3, "nota": 50, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T20:24:29", "evento": "responder", "nota_final": 57, "tentativas": 3}
+{"t": "2026-11-23T20:26:48", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-23T20:26:50", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:26:50", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:27:13", "evento": "gerar", "tentativa": 1, "segundos": 22.98, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua conta."}
+{"t": "2026-11-23T20:27:33", "evento": "avaliar", "tentativa": 1, "nota": 54, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:27:55", "evento": "gerar", "tentativa": 2, "segundos": 21.68, "titulo": "Quanto você cobra por bolo? A gente te ajuda a descobrir."}
+{"t": "2026-11-23T20:28:13", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:28:37", "evento": "gerar", "tentativa": 3, "segundos": 23.62, "titulo": "Quanto você cobra por bolo? A gente te ajuda a calcular."}
+{"t": "2026-11-23T20:28:54", "evento": "avaliar", "tentativa": 3, "nota": 99, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:28:54", "evento": "responder", "nota_final": 99, "tentativas": 3}
+{"t": "2026-11-23T20:29:00", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T20:29:00", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:29:00", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:29:30", "evento": "gerar", "tentativa": 1, "segundos": 30.28, "titulo": "Agenda vazia na terça? Você não está sozinha."}
+{"t": "2026-11-23T20:29:52", "evento": "avaliar", "tentativa": 1, "nota": 45, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-23T20:30:15", "evento": "gerar", "tentativa": 2, "segundos": 22.57, "titulo": "Agenda vazia na terça? A gente te ensina a preencher sem ficar chateada."}
+{"t": "2026-11-23T20:30:30", "evento": "avaliar", "tentativa": 2, "nota": 65, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:30:52", "evento": "gerar", "tentativa": 3, "segundos": 22.05, "titulo": "Agenda vazia na terça? Vai pra rua com essa dica que eu juro que vai funcionar."}
+{"t": "2026-11-23T20:31:05", "evento": "avaliar", "tentativa": 3, "nota": 65, "problemas": ["o texto na tela passa de 8 palavras"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:31:05", "evento": "responder", "nota_final": 65, "tentativas": 3}
+{"t": "2026-11-23T20:31:11", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-23T20:31:11", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:31:11", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-23T20:32:38", "evento": "gerar", "tentativa": 1, "segundos": 34.1, "titulo": "Você está cobrando o preço certo no Instagram? A maioria erra!"}
+{"t": "2026-11-23T20:32:52", "evento": "avaliar", "tentativa": 1, "nota": 82, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras", "a legenda está longa: 2 a 4 frases curtas, o vídeo explica e a legenda só pede a ação"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:33:18", "evento": "gerar", "tentativa": 2, "segundos": 25.83, "titulo": "Preço no Instagram que atrai… e não repel!"}
+{"t": "2026-11-23T20:33:35", "evento": "avaliar", "tentativa": 2, "nota": 76, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "a legenda está longa: 2 a 4 frases curtas, o vídeo explica e a legenda só pede a ação"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:34:01", "evento": "gerar", "tentativa": 3, "segundos": 25.88, "titulo": "Preço no Instagram que atrai… e não repel!"}
+{"t": "2026-11-23T20:34:01", "evento": "avaliar", "tentativa": 3, "nota": 76, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "a legenda está longa: 2 a 4 frases curtas, o vídeo explica e a legenda só pede a ação"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:34:01", "evento": "responder", "nota_final": 82, "tentativas": 3}
+{"t": "2026-11-23T20:34:06", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-23T20:34:06", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:34:06", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-23T20:35:16", "evento": "gerar", "tentativa": 1, "segundos": 30.43, "titulo": "Quando a nota do MEI te põe pra fora do prédio"}
+{"t": "2026-11-23T20:35:36", "evento": "avaliar", "tentativa": 1, "nota": 77, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo", "o texto na tela passa de 8 palavras"], "sugestoes": ["tipo_hook", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10", "tipo_cta"]}
+{"t": "2026-11-23T20:36:19", "evento": "gerar", "tentativa": 2, "segundos": 42.26, "titulo": "Qual prédio você tá tentando fechar com nota do MEI? (e a gente tá com você)"}
+{"t": "2026-11-23T20:36:32", "evento": "avaliar", "tentativa": 2, "nota": 96, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo", "o texto na tela passa de 8 palavras"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:37:15", "evento": "gerar", "tentativa": 3, "segundos": 42.54, "titulo": "Nota do MEI tá no prédio 13… e a gente tá no prédio 12. Qual prédio você tá tentando fechar?"}
+{"t": "2026-11-23T20:37:35", "evento": "avaliar", "tentativa": 3, "nota": 97, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo", "o texto na tela passa de 8 palavras"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:37:35", "evento": "responder", "nota_final": 97, "tentativas": 3}
+{"t": "2026-11-23T20:37:42", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas"}}
+{"t": "2026-11-23T20:37:42", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:37:42", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T20:38:08", "evento": "gerar", "tentativa": 1, "segundos": 26.28, "titulo": "Nota fiscal e DAS: a gente não tem que se ajoelhar pra isso, né?"}
+{"t": "2026-11-23T20:38:26", "evento": "avaliar", "tentativa": 1, "nota": 100, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:38:47", "evento": "gerar", "tentativa": 2, "segundos": 21.24, "titulo": "Nota fiscal e DAS? A gente tá aqui pra te tirar do buraco, não pra te deixar na fila."}
+{"t": "2026-11-23T20:39:04", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["tipo_hook", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10", "tipo_cta"]}
+{"t": "2026-11-23T20:39:26", "evento": "gerar", "tentativa": 3, "segundos": 21.63, "titulo": "Nota fiscal e DAS pra artesãs? A gente já fez pra você, sem enrolar."}
+{"t": "2026-11-23T20:39:44", "evento": "avaliar", "tentativa": 3, "nota": 91, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa", "o texto na tela passa de 8 palavras"], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:39:44", "evento": "responder", "nota_final": 100, "tentativas": 3}
+{"t": "2026-11-23T20:40:04", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "alcançar donas de salão de beleza com agenda vazia na terça e na quarta", "publico": "empreendedoras do setor de beleza que precisam de clientes ou estratégias para preencher sua agenda"}}
+{"t": "2026-11-23T20:40:05", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:40:05", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:41:06", "evento": "gerar", "tentativa": 1, "segundos": 22.69, "titulo": "Agenda vazia na terça? Você não está sozinha."}
+{"t": "2026-11-23T20:41:22", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-23T20:41:22", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:41:22", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:41:52", "evento": "gerar", "tentativa": 1, "segundos": 26.11, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua conta.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:42:14", "evento": "avaliar", "tentativa": 1, "nota": 54, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:42:38", "evento": "gerar", "tentativa": 2, "segundos": 23.08, "titulo": "Quanto cobrar pra não ficar no vermelho?", "acabamento": []}
+{"t": "2026-11-23T20:42:57", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:42:57", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T20:42:57", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T20:42:57", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:42:57", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:43:29", "evento": "gerar", "tentativa": 1, "segundos": 29.17, "titulo": "Agenda vazia na terça? Você não está sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:43:57", "evento": "avaliar", "tentativa": 1, "nota": 10, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "tipo_hook"]}
+{"t": "2026-11-23T20:44:43", "evento": "gerar", "tentativa": 2, "segundos": 41.85, "titulo": "Agenda vazia? É porque você esqueceu de ligar pra ela.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:45:07", "evento": "avaliar", "tentativa": 2, "nota": 45, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-23T20:48:02", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-23T20:48:03", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:48:03", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:48:24", "evento": "gerar", "tentativa": 1, "segundos": 18.63, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua confeitaria", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:48:41", "evento": "avaliar", "tentativa": 1, "nota": 51, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:49:10", "evento": "gerar", "tentativa": 2, "segundos": 28.75, "titulo": "Quanto cobrar por bolo? A resposta que você não quer ouvir (mas precisa saber)", "acabamento": []}
+{"t": "2026-11-23T20:49:25", "evento": "avaliar", "tentativa": 2, "nota": 70, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:49:25", "evento": "responder", "nota_final": 70, "tentativas": 2}
+{"t": "2026-11-23T20:49:25", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T20:49:25", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:49:25", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T20:49:49", "evento": "gerar", "tentativa": 1, "segundos": 20.38, "titulo": "Agenda vazia na terça? Você não está sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:50:04", "evento": "avaliar", "tentativa": 1, "nota": 21, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-23T20:50:26", "evento": "gerar", "tentativa": 2, "segundos": 21.16, "titulo": "Agenda vazia na terça? Pergunta: você tá tentando tudo errado.", "acabamento": []}
+{"t": "2026-11-23T20:50:43", "evento": "avaliar", "tentativa": 2, "nota": 36, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-23T20:51:08", "evento": "gerar", "tentativa": 3, "segundos": 21.66, "titulo": "Agenda vazia na terça? A gente não tá falando de sorte… é de planejamento.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:51:26", "evento": "avaliar", "tentativa": 3, "nota": 37, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-23T20:51:26", "evento": "responder", "nota_final": 36, "tentativas": 3}
+{"t": "2026-11-23T20:51:26", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-23T20:51:26", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:51:26", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-23T20:51:57", "evento": "gerar", "tentativa": 1, "segundos": 28.57, "titulo": "Você está cobrando o preço certo no Instagram? 🤔", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:52:11", "evento": "avaliar", "tentativa": 1, "nota": 90, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:52:11", "evento": "responder", "nota_final": 90, "tentativas": 1}
+{"t": "2026-11-23T20:52:11", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-23T20:52:11", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:52:11", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-23T20:52:33", "evento": "gerar", "tentativa": 1, "segundos": 18.77, "titulo": "Quando a nota do MEI te põe pra fora da lavanderia", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:52:48", "evento": "avaliar", "tentativa": 1, "nota": 78, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:52:48", "evento": "responder", "nota_final": 78, "tentativas": 1}
+{"t": "2026-11-23T20:52:48", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas"}}
+{"t": "2026-11-23T20:52:48", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:52:48", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T20:53:09", "evento": "gerar", "tentativa": 1, "segundos": 20.3, "titulo": "Como tirar a nota fiscal sem ficar nervosa? 🤯", "acabamento": []}
+{"t": "2026-11-23T20:53:24", "evento": "avaliar", "tentativa": 1, "nota": 85, "problemas": ["o roteiro não tem falas: diga o que a pessoa fala em cada cena"], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T20:53:48", "evento": "gerar", "tentativa": 2, "segundos": 24.57, "titulo": "Nota fiscal + DAS? Eu já tirei sem me dar ao trabalho de calcular!", "acabamento": []}
+{"t": "2026-11-23T20:54:06", "evento": "avaliar", "tentativa": 2, "nota": 98, "problemas": ["o roteiro não tem falas: diga o que a pessoa fala em cada cena"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:54:26", "evento": "gerar", "tentativa": 3, "segundos": 20.25, "titulo": "Nota fiscal + DAS? Eu resolvi isso sem me tornar contadora!", "acabamento": []}
+{"t": "2026-11-23T20:54:43", "evento": "avaliar", "tentativa": 3, "nota": 98, "problemas": ["o roteiro não tem falas: diga o que a pessoa fala em cada cena"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T20:54:43", "evento": "responder", "nota_final": 98, "tentativas": 3}
+{"t": "2026-11-23T20:56:14", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-23T20:56:15", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T20:56:15", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T20:56:42", "evento": "gerar", "tentativa": 1, "segundos": 24.27, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua conta.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T20:57:08", "evento": "avaliar", "tentativa": 1, "nota": 56, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:58:16", "evento": "gerar", "tentativa": 2, "segundos": 68.05, "titulo": "Quanto cobrar pra não ficar no vermelho? A pergunta que todo bolo tem que responder.", "acabamento": []}
+{"t": "2026-11-23T20:59:06", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T20:59:06", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T20:59:06", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T20:59:06", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T20:59:07", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:00:30", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:01:17", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:02:25", "evento": "gerar", "tentativa": 2, "segundos": 64.56, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:02:42", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:03:09", "evento": "gerar", "tentativa": 3, "segundos": 23.69, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não porque é ‘dia ruim’.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:03:26", "evento": "avaliar", "tentativa": 3, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:03:26", "evento": "responder", "nota_final": 34, "tentativas": 3}
+{"t": "2026-11-23T21:03:27", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-23T21:03:27", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T21:03:27", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-23T21:04:02", "evento": "gerar", "tentativa": 1, "segundos": 28.13, "titulo": "Você está cobrando o preço certo no Instagram? 🤔", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-23T21:04:16", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T21:04:40", "evento": "gerar", "tentativa": 2, "segundos": 23.03, "titulo": "Preço errado no Instagram? Você pode estar perdendo milhares 💸", "acabamento": []}
+{"t": "2026-11-23T21:04:53", "evento": "avaliar", "tentativa": 2, "nota": 97, "problemas": [], "sugestoes": ["legenda_tamanho", "tema_principal", "formato_video", "tipo_cta"]}
+{"t": "2026-11-23T21:04:53", "evento": "responder", "nota_final": 97, "tentativas": 2}
+{"t": "2026-11-23T21:04:53", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-23T21:04:53", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:04:53", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-23T21:06:16", "evento": "gerar", "tentativa": 1, "segundos": 23.0, "titulo": "Quando a nota do MEI te põe pra fora do prédio", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:06:32", "evento": "avaliar", "tentativa": 1, "nota": 99, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T21:07:06", "evento": "gerar", "tentativa": 2, "segundos": 31.15, "titulo": "Nota do MEI te atrapalha no prédio? A gente vai te mostrar como resolver isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:07:26", "evento": "avaliar", "tentativa": 2, "nota": 86, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T21:07:26", "evento": "responder", "nota_final": 86, "tentativas": 2}
+{"t": "2026-11-23T21:07:26", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas"}}
+{"t": "2026-11-23T21:07:26", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:07:26", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T21:07:59", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-23T21:08:00", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T21:08:00", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T21:08:00", "evento": "gerar", "tentativa": 1, "segundos": 24.27, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua conta.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:08:02", "evento": "avaliar", "tentativa": 1, "nota": 56, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T21:08:02", "evento": "gerar", "tentativa": 2, "segundos": 68.05, "titulo": "Quanto cobrar pra não ficar no vermelho? A pergunta que todo bolo tem que responder.", "acabamento": []}
+{"t": "2026-11-23T21:08:02", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T21:08:02", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T21:08:02", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T21:08:02", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:08:02", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:08:02", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:08:02", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:08:02", "evento": "gerar", "tentativa": 2, "segundos": 64.56, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:08:02", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:08:02", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T21:08:02", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-23T21:08:03", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T21:08:03", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-23T21:08:03", "evento": "gerar", "tentativa": 1, "segundos": 28.13, "titulo": "Você está cobrando o preço certo no Instagram? 🤔", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-23T21:08:03", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T21:08:03", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-23T21:08:03", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-23T21:08:03", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:08:03", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-23T21:08:59", "evento": "gerar", "tentativa": 1, "segundos": 23.0, "titulo": "Quando a nota do MEI te põe pra fora do prédio", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:08:59", "evento": "avaliar", "tentativa": 1, "nota": 99, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T21:08:59", "evento": "gerar", "tentativa": 2, "segundos": 31.15, "titulo": "Nota do MEI te atrapalha no prédio? A gente vai te mostrar como resolver isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:08:59", "evento": "avaliar", "tentativa": 2, "nota": 86, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T21:08:59", "evento": "responder", "nota_final": 86, "tentativas": 2}
+{"t": "2026-11-23T21:08:59", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas"}}
+{"t": "2026-11-23T21:08:59", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:08:59", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-23T21:09:27", "evento": "gerar", "tentativa": 1, "segundos": 24.4, "titulo": "Como tirar a nota fiscal sem ficar nervosa? 🤯", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:09:42", "evento": "avaliar", "tentativa": 1, "nota": 91, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-23T21:09:42", "evento": "responder", "nota_final": 91, "tentativas": 1}
+{"t": "2026-11-23T21:09:44", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "alcançar donas de salão de beleza com agenda vazia na terça e na quarta", "publico": "empreendedoras do setor de beleza que precisam de clientes ou estratégias para preencher sua agenda"}}
+{"t": "2026-11-23T21:09:45", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:09:45", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:10:11", "evento": "gerar", "tentativa": 1, "segundos": 23.0, "titulo": "Agenda vazia na terça? Você não está sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:10:34", "evento": "avaliar", "tentativa": 1, "nota": 22, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-23T21:11:02", "evento": "gerar", "tentativa": 2, "segundos": 25.55, "titulo": "Agenda vazia na terça? Pergunta: você tá esperando o cliente… ou já tá fazendo algo pra ele aparecer?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:11:21", "evento": "avaliar", "tentativa": 2, "nota": 38, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:11:45", "evento": "gerar", "tentativa": 3, "segundos": 23.87, "titulo": "Agenda vazia na terça? Não é falta de clientes… é falta de estratégia.", "acabamento": []}
+{"t": "2026-11-23T21:12:01", "evento": "avaliar", "tentativa": 3, "nota": 39, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:12:01", "evento": "responder", "nota_final": 39, "tentativas": 3}
+{"t": "2026-11-23T21:12:17", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T21:12:17", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:12:17", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:12:17", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:12:18", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:12:18", "evento": "gerar", "tentativa": 2, "segundos": 64.56, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:12:18", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:12:18", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T21:12:49", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T21:12:49", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:12:49", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:12:49", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:12:49", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:12:49", "evento": "gerar", "tentativa": 2, "segundos": 64.56, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:12:49", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:12:49", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T21:13:18", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-23T21:13:18", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:13:18", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-23T21:13:18", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:13:18", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-23T21:13:18", "evento": "gerar", "tentativa": 2, "segundos": 64.56, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:13:18", "evento": "avaliar", "tentativa": 2, "nota": 73, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-23T21:13:18", "evento": "responder", "nota_final": 73, "tentativas": 2}
+{"t": "2026-11-23T21:17:45", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda", "publico": "confeiteiras que vendem bolo por encomenda e não sabem quanto cobrar"}}
+{"t": "2026-11-23T21:17:45", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-23T21:17:45", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-23T21:19:33", "evento": "gerar", "tentativa": 1, "segundos": 98.1, "titulo": "Quanto cobrar por bolo? A pergunta que mata a confeiteira", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-23T21:21:02", "evento": "avaliar", "tentativa": 1, "nota": 48, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-23T21:21:41", "evento": "gerar", "tentativa": 2, "segundos": 39.17, "titulo": "Quanto cobrar pra não ficar no vermelho? A pergunta que todo bolo tem medo de responder", "acabamento": []}
+{"t": "2026-11-23T21:22:17", "evento": "avaliar", "tentativa": 2, "nota": 62, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-23T21:22:17", "evento": "responder", "nota_final": 62, "tentativas": 2}
+{"t": "2026-11-23T21:32:41", "evento": "entender", "pedido": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos", "plano": {"segmento": "servicos_e_outros", "negocio": "manutenção de ar-condicionado", "objetivo": "atrair MEIs que querem mais orçamentos", "publico": "MEIs de manutenção de ar-condicionado"}}
+{"t": "2026-11-23T21:32:42", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-23T21:32:42", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-23T21:33:07", "evento": "gerar", "tentativa": 1, "segundos": 22.22, "titulo": "Você tá cobrando certo pra manutenção de ar-condicionado?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-23T21:33:23", "evento": "avaliar", "tentativa": 1, "nota": 91, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-23T21:33:23", "evento": "responder", "nota_final": 91, "tentativas": 1}
+{"t": "2026-11-24T19:58:06", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-24T19:58:08", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T19:58:08", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-24T19:58:08", "evento": "gerar", "tentativa": 1, "segundos": 28.13, "titulo": "Você está cobrando o preço certo no Instagram? 🤔", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T19:58:12", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T19:58:12", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T20:07:20", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-24T20:07:21", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:07:21", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:09:24", "evento": "gerar", "tentativa": 1, "segundos": 23.0, "titulo": "Quando a nota do MEI te põe pra fora do prédio", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:09:28", "evento": "avaliar", "tentativa": 1, "nota": 99, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:09:28", "evento": "gerar", "tentativa": 2, "segundos": 31.15, "titulo": "Nota do MEI te atrapalha no prédio? A gente vai te mostrar como resolver isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:09:28", "evento": "avaliar", "tentativa": 2, "nota": 86, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:09:28", "evento": "responder", "nota_final": 86, "tentativas": 2}
+{"t": "2026-11-24T20:11:33", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda para bolos por encomenda", "publico": "confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar"}}
+{"t": "2026-11-24T20:11:34", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:11:34", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:11:34", "evento": "gerar", "tentativa": 1, "segundos": 24.27, "titulo": "Quanto cobrar por bolo? A pergunta que mata a sua conta.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:11:35", "evento": "avaliar", "tentativa": 1, "nota": 55, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:11:58", "evento": "gerar", "tentativa": 2, "segundos": 23.54, "titulo": "Quanto cobrar pra não ficar no vermelho? A pergunta que todo bolo tem que responder.", "acabamento": []}
+{"t": "2026-11-24T20:12:17", "evento": "avaliar", "tentativa": 2, "nota": 66, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T20:12:17", "evento": "responder", "nota_final": 66, "tentativas": 2}
+{"t": "2026-11-24T20:12:41", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno"}}
+{"t": "2026-11-24T20:12:41", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:12:41", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:12:41", "evento": "gerar", "tentativa": 1, "segundos": 79.12, "titulo": "Agenda vazia na terça? Isso é normal… ou é sinal de algo!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:12:41", "evento": "avaliar", "tentativa": 1, "nota": 33, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T20:13:06", "evento": "gerar", "tentativa": 2, "segundos": 22.13, "titulo": "Agenda vazia na terça? É sinal de que você tá perdendo clientes… e não por falta de vontade.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:13:25", "evento": "avaliar", "tentativa": 2, "nota": 60, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video", "pilar_impulso"]}
+{"t": "2026-11-24T20:13:25", "evento": "responder", "nota_final": 60, "tentativas": 2}
+{"t": "2026-11-24T20:13:49", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento"}}
+{"t": "2026-11-24T20:13:49", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:13:49", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-24T20:13:49", "evento": "gerar", "tentativa": 1, "segundos": 28.13, "titulo": "Você está cobrando o preço certo no Instagram? 🤔", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T20:13:49", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:13:49", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T20:14:13", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro"}}
+{"t": "2026-11-24T20:14:13", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:14:13", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:15:08", "evento": "gerar", "tentativa": 1, "segundos": 23.0, "titulo": "Quando a nota do MEI te põe pra fora do prédio", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:15:08", "evento": "avaliar", "tentativa": 1, "nota": 99, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:15:08", "evento": "gerar", "tentativa": 2, "segundos": 31.15, "titulo": "Nota do MEI te atrapalha no prédio? A gente vai te mostrar como resolver isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:15:08", "evento": "avaliar", "tentativa": 2, "nota": 86, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:15:08", "evento": "responder", "nota_final": 86, "tentativas": 2}
+{"t": "2026-11-24T20:15:34", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas"}}
+{"t": "2026-11-24T20:15:34", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:15:34", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T20:15:34", "evento": "gerar", "tentativa": 1, "segundos": 24.4, "titulo": "Como tirar a nota fiscal sem ficar nervosa? 🤯", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:15:34", "evento": "avaliar", "tentativa": 1, "nota": 91, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:15:34", "evento": "responder", "nota_final": 91, "tentativas": 1}
+{"t": "2026-11-24T20:15:58", "evento": "entender", "pedido": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos", "plano": {"segmento": "servicos_e_outros", "negocio": "manutenção de ar-condicionado", "objetivo": "atrair MEIs que querem mais orçamentos", "publico": "MEIs de manutenção de ar-condicionado"}}
+{"t": "2026-11-24T20:15:58", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:15:58", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:15:58", "evento": "gerar", "tentativa": 1, "segundos": 22.22, "titulo": "Você tá cobrando certo pra manutenção de ar-condicionado?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:15:58", "evento": "avaliar", "tentativa": 1, "nota": 91, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:15:58", "evento": "responder", "nota_final": 91, "tentativas": 1}
+{"t": "2026-11-24T20:16:26", "evento": "entender", "pedido": "Post do Impulso para dono de food truck de açaí que perde vendas por falta de troco no PIX/maquininha em feiras.", "plano": {"segmento": "alimentacao", "negocio": "food truck de açaí", "objetivo": "resolver problema de falta de troco no PIX/maquininha em feiras", "publico": "dono de food truck de açaí"}}
+{"t": "2026-11-24T20:16:26", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:16:26", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:16:45", "evento": "gerar", "tentativa": 1, "segundos": 15.75, "titulo": "Falta de troco no PIX? Isso tá matando seu food truck!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:16:59", "evento": "avaliar", "tentativa": 1, "nota": 49, "problemas": [], "sugestoes": ["duracao_faixa", "tipo_hook", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T20:17:22", "evento": "gerar", "tentativa": 2, "segundos": 23.46, "titulo": "Ficou sem troco pra fechar venda? Isso é normal — ou pode ser resolvido.", "acabamento": []}
+{"t": "2026-11-24T20:17:36", "evento": "avaliar", "tentativa": 2, "nota": 47, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T20:17:56", "evento": "gerar", "tentativa": 3, "segundos": 17.02, "titulo": "Ficou sem troco pra fechar venda? Isso é normal — ou pode ser resolvido.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:18:10", "evento": "avaliar", "tentativa": 3, "nota": 73, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T20:18:10", "evento": "responder", "nota_final": 73, "tentativas": 3}
+{"t": "2026-11-24T20:18:42", "evento": "entender", "pedido": "Post do Impulso p/ manicure autônoma c/ agenda furada por faltas: inclua gancho, sinal antecipado de 30% via Pix e CTA WhatsApp.", "plano": {"segmento": "beleza", "negocio": "manicure autônoma", "objetivo": "alcançar manicures autônomas que enfrentam faltas e agendamentos desorganizados", "publico": "manicures autônomas com agenda furada por faltas"}}
+{"t": "2026-11-24T20:18:42", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:18:42", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:19:11", "evento": "gerar", "tentativa": 1, "segundos": 25.84, "titulo": "Agenda furada? Você não está sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:19:27", "evento": "avaliar", "tentativa": 1, "nota": 26, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T20:19:57", "evento": "gerar", "tentativa": 2, "segundos": 26.64, "titulo": "Agenda furada? É porque você tá tentando fazer tudo sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:20:09", "evento": "avaliar", "tentativa": 2, "nota": 23, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T20:20:35", "evento": "gerar", "tentativa": 3, "segundos": 25.75, "titulo": "Agenda furada? É porque você tá tentando ser a super-heroína sozinha.", "acabamento": []}
+{"t": "2026-11-24T20:20:56", "evento": "avaliar", "tentativa": 3, "nota": 26, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T20:20:57", "evento": "responder", "nota_final": 26, "tentativas": 3}
+{"t": "2026-11-24T20:21:24", "evento": "entender", "pedido": "Post Impulso: como lojista de roupas MEI calcula preço (custo + markup 2x) sem prejuízo, incluindo taxas de maquininha?", "plano": {"segmento": "varejo_e_vendas", "negocio": "lojista de roupas MEI", "objetivo": "ensinar como calcular preço com markup 2x sem prejuízo, incluindo taxas de maquininha", "publico": "empreendedores MEI que vendem roupas, especialmente em varejo físico ou online"}}
+{"t": "2026-11-24T20:21:25", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:21:25", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "ea01v_tH1JY", "e_hmaDCWkjQ", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T20:22:01", "evento": "gerar", "tentativa": 1, "segundos": 32.5, "titulo": "Como cobrar 2x mais sem prejuízo? Aprenda com um MEI de roupas", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:22:22", "evento": "avaliar", "tentativa": 1, "nota": 84, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video", "tipo_cta"]}
+{"t": "2026-11-24T20:22:22", "evento": "responder", "nota_final": 84, "tentativas": 1}
+{"t": "2026-11-24T20:22:57", "evento": "entender", "pedido": "Post do Impulso para MEI sobre emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS.", "plano": {"segmento": "mei_e_contabilidade", "negocio": "MEI que emite NFS-e para vendas B2B com retenção de ISS", "objetivo": "Apoiar MEI na emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS", "publico": "MEI que atua em vendas B2B e precisa emitir NFS-e com retenção de ISS"}}
+{"t": "2026-11-24T20:22:57", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:22:57", "evento": "referencias", "n": 5, "ids": ["rlhzG-kPvus", "MzEaFevt_Ks", "wCfWbFnKlCo", "OLm0DhVIWd0", "dzA8ezGR3Xg"]}
+{"t": "2026-11-24T20:23:23", "evento": "gerar", "tentativa": 1, "segundos": 23.25, "titulo": "MEI, VOCÊ EMITE NFS-e PARA VENDAS B2B COM RETENÇÃO DE ISS? 🤔", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:23:37", "evento": "avaliar", "tentativa": 1, "nota": 98, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:23:37", "evento": "responder", "nota_final": 98, "tentativas": 1}
+{"t": "2026-11-24T20:24:08", "evento": "entender", "pedido": "Post do Impulso para dono de padaria de bairro com maquininha parada, perdendo vendas por não aceitar Pix parcelado.", "plano": {"segmento": "alimentacao", "negocio": "padaria de bairro", "objetivo": "reverter perda de vendas por não aceitar Pix parcelado", "publico": "dono de padaria de bairro"}}
+{"t": "2026-11-24T20:24:08", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:24:09", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:24:35", "evento": "gerar", "tentativa": 1, "segundos": 23.38, "titulo": "Pix parcelado e vendas caídas? Isso tá te matando.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:24:48", "evento": "avaliar", "tentativa": 1, "nota": 58, "problemas": [], "sugestoes": ["duracao_faixa", "tipo_hook", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:25:12", "evento": "gerar", "tentativa": 2, "segundos": 24.14, "titulo": "Você tá deixando dinheiro na mão porque não aceita Pix parcelado?", "acabamento": []}
+{"t": "2026-11-24T20:25:25", "evento": "avaliar", "tentativa": 2, "nota": 76, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "legenda_tamanho", "formato_video", "tipo_cta"]}
+{"t": "2026-11-24T20:25:25", "evento": "responder", "nota_final": 76, "tentativas": 2}
+{"t": "2026-11-24T20:25:54", "evento": "entender", "pedido": "Como uma artesã de crochê sem tempo nem verba pode combinar Reels, hashtags e prova social para crescer organicamente no Instagram?", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesã de crochê", "objetivo": "crescer organicamente no Instagram", "publico": "artesãs de crochê sem tempo nem verba"}}
+{"t": "2026-11-24T20:25:54", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:25:54", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T20:26:16", "evento": "gerar", "tentativa": 1, "segundos": 19.08, "titulo": "Como vender mais crochê sem sair da sua casa", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:26:34", "evento": "avaliar", "tentativa": 1, "nota": 64, "problemas": [], "sugestoes": ["tipo_hook", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:26:34", "evento": "responder", "nota_final": 64, "tentativas": 1}
+{"t": "2026-11-24T20:27:02", "evento": "entender", "pedido": "Como a mistura do caixa da barbearia com o dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso convence?", "plano": {"segmento": "beleza", "negocio": "barbearia", "objetivo": "explicar como misturar caixa da barbearia com dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso Stone pode convencer empreendedores a separar esses fluxos para melhor gestão financeira e legalidade", "publico": "donos de barbearia"}}
+{"t": "2026-11-24T20:27:02", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:27:02", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:27:28", "evento": "gerar", "tentativa": 1, "segundos": 23.24, "titulo": "Você tá misturando caixa e dinheiro pessoal? Isso pode te custar caro.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:27:42", "evento": "avaliar", "tentativa": 1, "nota": 87, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video", "tipo_cta"]}
+{"t": "2026-11-24T20:27:42", "evento": "responder", "nota_final": 87, "tentativas": 1}
+{"t": "2026-11-24T20:28:15", "evento": "entender", "pedido": "E se o fornecedor dobrasse o preço do ingrediente amanhã? Como a confeiteira ajustaria preços das encomendas no post do Impulso?", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajustar preços das encomendas diante de aumento de custo de ingrediente", "publico": "confeiteiras por encomenda"}}
+{"t": "2026-11-24T20:28:15", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:28:15", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:28:36", "evento": "gerar", "tentativa": 1, "segundos": 18.11, "titulo": "Aumento de preço? Não precisa chorar.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:28:53", "evento": "avaliar", "tentativa": 1, "nota": 54, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:29:14", "evento": "gerar", "tentativa": 2, "segundos": 18.21, "titulo": "Preço do bolo subiu? A gente te ensina como ajustar sem perder clientes.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:29:26", "evento": "avaliar", "tentativa": 2, "nota": 69, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:29:26", "evento": "responder", "nota_final": 69, "tentativas": 2}
+{"t": "2026-11-24T20:29:59", "evento": "entender", "pedido": "Imagine um eletricista autônomo dobrando clientes em 1 mês: como um post do Impulso o ajudaria a definir quanto cobrar por visita?", "plano": {"segmento": "servicos_e_outros", "negocio": "eletricista autônomo", "objetivo": "ajudar a definir quanto cobrar por visita", "publico": "eletricistas autônomos ou empreendedores de serviços elétricos"}}
+{"t": "2026-11-24T20:29:59", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:29:59", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:30:24", "evento": "gerar", "tentativa": 1, "segundos": 21.5, "titulo": "Quanto cobrar por visita? A pergunta que mata os eletricistas autônomos", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:30:37", "evento": "avaliar", "tentativa": 1, "nota": 91, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:30:37", "evento": "responder", "nota_final": 91, "tentativas": 1}
+{"t": "2026-11-24T20:31:06", "evento": "entender", "pedido": "Compare posts do Impulso: desconto fidelidade vs. clube de assinatura mensal para salão fidelizar clientes.", "plano": {"segmento": "beleza", "negocio": "salão", "objetivo": "fidelizar clientes", "publico": "clientes de salão de beleza"}}
+{"t": "2026-11-24T20:31:06", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:31:06", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:31:26", "evento": "gerar", "tentativa": 1, "segundos": 16.43, "titulo": "Você tá cobrando certo pra fidelizar? Ou só pra não perder cliente?", "acabamento": ["legenda"]}
+{"t": "2026-11-24T20:31:39", "evento": "avaliar", "tentativa": 1, "nota": 18, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T20:32:01", "evento": "gerar", "tentativa": 2, "segundos": 18.53, "titulo": "Fidelização é só desconto? Ou é você que tá fazendo o cliente querer voltar?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:32:16", "evento": "avaliar", "tentativa": 2, "nota": 60, "problemas": [], "sugestoes": ["tom", "usa_linguagem_regional", "tema_principal", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T20:32:16", "evento": "responder", "nota_final": 60, "tentativas": 2}
+{"t": "2026-11-24T20:32:42", "evento": "entender", "pedido": "Imagine uma loja de rua sem vendas por 1 semana. Como um post do Impulso reverteria isso?", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja física ou online que revende produtos", "objetivo": "reverter a queda de vendas com estratégias de marketing rápido e atraentes para o público local", "publico": "donos de lojas físicas ou de e-commerce que enfrentam baixa de vendas por falta de visibilidade ou engajamento"}}
+{"t": "2026-11-24T20:32:42", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:32:42", "evento": "referencias", "n": 5, "ids": ["e_hmaDCWkjQ", "LgN63QPRwrg", "ea01v_tH1JY", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T20:33:16", "evento": "gerar", "tentativa": 1, "segundos": 25.95, "titulo": "Você está cobrando o preço certo? Ou só o que dá pra vender?", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T20:33:29", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:33:29", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T20:34:05", "evento": "entender", "pedido": "Post do Impulso p/ dono de food truck: caixa some todo mês e difícil achar fornecedor de carne; tom empático, CTA claro, máx. 30s.", "plano": {"segmento": "alimentacao", "negocio": "food truck", "objetivo": "tom empático + CTA claro", "publico": "dono de food truck"}}
+{"t": "2026-11-24T20:34:05", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:34:05", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:34:37", "evento": "gerar", "tentativa": 1, "segundos": 27.9, "titulo": "Quando a gente quer cobrar mais… mas o cliente não entende", "acabamento": ["legenda"]}
+{"t": "2026-11-24T20:34:52", "evento": "avaliar", "tentativa": 1, "nota": 47, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T20:35:10", "evento": "gerar", "tentativa": 2, "segundos": 18.21, "titulo": "Quando você quer cobrar mais… mas o cliente pergunta ‘é só isso?’", "acabamento": []}
+{"t": "2026-11-24T20:35:25", "evento": "avaliar", "tentativa": 2, "nota": 56, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T20:35:44", "evento": "gerar", "tentativa": 3, "segundos": 18.45, "titulo": "Quando você quer cobrar mais… mas o cliente pergunta ‘é só isso?’", "acabamento": []}
+{"t": "2026-11-24T20:35:44", "evento": "avaliar", "tentativa": 3, "nota": 81, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video", "tipo_cta"]}
+{"t": "2026-11-24T20:35:44", "evento": "responder", "nota_final": 81, "tentativas": 3}
+{"t": "2026-11-24T20:40:14", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro", "problema": "dificuldade de expandir atendimento para prédios da região", "restricoes": "não é varejo, nem contabilidade, nem pagamentos, nem gestão"}}
+{"t": "2026-11-24T20:40:16", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:40:16", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:40:43", "evento": "gerar", "tentativa": 1, "segundos": 23.39, "titulo": "Prédios da região? A gente já tá atendendo… mas como?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:41:05", "evento": "avaliar", "tentativa": 1, "nota": 43, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T20:41:30", "evento": "gerar", "tentativa": 2, "segundos": 25.57, "titulo": "Prédios não querem te ver no corredor? A gente viu como você entra sem dar trabalho.", "acabamento": []}
+{"t": "2026-11-24T20:41:45", "evento": "avaliar", "tentativa": 2, "nota": 37, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T20:42:11", "evento": "gerar", "tentativa": 3, "segundos": 25.68, "titulo": "Prédios fecham a porta? A gente viu como você entra sem ser incomodado.", "acabamento": []}
+{"t": "2026-11-24T20:42:29", "evento": "avaliar", "tentativa": 3, "nota": 50, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T20:42:29", "evento": "responder", "nota_final": 50, "tentativas": 3}
+{"t": "2026-11-24T20:44:53", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar confeiteiras a definirem preços justos e lucrativos para seus bolos vendidos pelo WhatsApp", "publico": "confeiteiras autônomas ou MEI que vendem bolo por encomenda e precisam de orientação sobre precificação e gestão de vendas", "problema": "não sabem quanto cobrar por bolo, sem saber como calcular custos e margem de lucro", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festa"}}
+{"t": "2026-11-24T20:44:54", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:44:54", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:45:32", "evento": "gerar", "tentativa": 1, "segundos": 30.61, "titulo": "Você está cobrando menos do que merece? 🤔", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T20:45:56", "evento": "avaliar", "tentativa": 1, "nota": 72, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:45:56", "evento": "responder", "nota_final": 72, "tentativas": 1}
+{"t": "2026-11-24T20:46:38", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno", "problema": "agenda vazia nas terças e quartas", "restricoes": "não é contabilidade, não é pagamentos, não é gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T20:46:38", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:46:38", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:47:16", "evento": "gerar", "tentativa": 1, "segundos": 34.34, "titulo": "Agenda vazia nas terças e quartas? Isso é normal — e tem solução.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:47:36", "evento": "avaliar", "tentativa": 1, "nota": 55, "problemas": ["há cenas repetidas no roteiro: cada cena precisa mostrar e dizer algo novo"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-24T20:48:11", "evento": "gerar", "tentativa": 2, "segundos": 35.33, "titulo": "Agenda vazia nas terças e quartas? É só falta de ‘puxão’ — e você pode resolver isso hoje.", "acabamento": []}
+{"t": "2026-11-24T20:48:26", "evento": "avaliar", "tentativa": 2, "nota": 81, "problemas": [], "sugestoes": ["tema_principal", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-24T20:48:26", "evento": "responder", "nota_final": 81, "tentativas": 2}
+{"t": "2026-11-24T20:49:03", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento", "problema": "dificuldade em vender online sem conhecimento de marketing digital", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festas, não é serviço local"}}
+{"t": "2026-11-24T20:49:03", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:49:03", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-24T20:49:53", "evento": "gerar", "tentativa": 1, "segundos": 42.73, "titulo": "Você tá vendendo no Instagram… mas não está vendendo direito?", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T20:50:19", "evento": "avaliar", "tentativa": 1, "nota": 76, "problemas": [], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-24T20:50:19", "evento": "responder", "nota_final": 76, "tentativas": 1}
+{"t": "2026-11-24T20:50:43", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro", "problema": "dificuldade de expandir atendimento para prédios da região", "restricoes": "não é varejo, nem contabilidade, nem pagamentos, nem gestão"}}
+{"t": "2026-11-24T20:50:43", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:50:43", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:51:26", "evento": "gerar", "tentativa": 1, "segundos": 35.54, "titulo": "Prédios da região? A gente tá tentando, mas é difícil.", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T20:51:38", "evento": "avaliar", "tentativa": 1, "nota": 64, "problemas": [], "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T20:51:38", "evento": "responder", "nota_final": 64, "tentativas": 1}
+{"t": "2026-11-24T20:52:15", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas", "problema": "perdem-se com nota fiscal e DAS", "restricoes": "não é contabilidade, nem pagamentos, nem gestão financeira"}}
+{"t": "2026-11-24T20:52:15", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:52:15", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T20:52:43", "evento": "gerar", "tentativa": 1, "segundos": 24.93, "titulo": "Você tá perdendo dinheiro com nota fiscal e DAS?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:52:58", "evento": "avaliar", "tentativa": 1, "nota": 85, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:52:58", "evento": "responder", "nota_final": 85, "tentativas": 1}
+{"t": "2026-11-24T20:53:30", "evento": "entender", "pedido": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos", "plano": {"segmento": "servicos_e_outros", "negocio": "manutenção de ar-condicionado", "objetivo": "atrair MEIs que querem mais orçamentos", "publico": "MEIs de manutenção de ar-condicionado", "problema": "dificuldade em conseguir mais orçamentos", "restricoes": "não é contabilidade, não é pagamento, não é gestão"}}
+{"t": "2026-11-24T20:53:30", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:53:30", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T20:53:54", "evento": "gerar", "tentativa": 1, "segundos": 20.54, "titulo": "Você tá perdendo orçamentos porque não faz isso", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:54:14", "evento": "avaliar", "tentativa": 1, "nota": 60, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T20:54:14", "evento": "responder", "nota_final": 60, "tentativas": 1}
+{"t": "2026-11-24T20:54:44", "evento": "entender", "pedido": "Post do Impulso para dono de food truck de açaí que perde vendas por falta de troco no PIX/maquininha em feiras.", "plano": {"segmento": "alimentacao", "negocio": "food truck de açaí", "objetivo": "resolver problema de falta de troco no PIX/maquininha em feiras", "publico": "dono de food truck de açaí", "problema": "perde vendas por falta de troco no PIX/maquininha em feiras", "restricoes": "não é contabilidade, não é consultoria, não é maquininha ou conta PJ"}}
+{"t": "2026-11-24T20:54:45", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:54:45", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T20:55:10", "evento": "gerar", "tentativa": 1, "segundos": 21.93, "titulo": "Falta de troco no PIX? Feira tá fechando e você ainda não vendeu!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:55:26", "evento": "avaliar", "tentativa": 1, "nota": 72, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:55:26", "evento": "responder", "nota_final": 72, "tentativas": 1}
+{"t": "2026-11-24T20:56:00", "evento": "entender", "pedido": "Post do Impulso p/ manicure autônoma c/ agenda furada por faltas: inclua gancho, sinal antecipado de 30% via Pix e CTA WhatsApp.", "plano": {"segmento": "beleza", "negocio": "manicure autônoma", "objetivo": "alcançar manicures autônomas com problemas de gestão de agenda e faltas", "publico": "manicures autônomas que enfrentam faltas e desorganização na agenda", "problema": "agenda furada por faltas", "restricoes": "não é contabilidade, não é maquininha, não é gestão financeira, não é varejo, não é artesanato, não é serviço mecânico ou de manutenção, não é alimentação, não é festa ou decoração"}}
+{"t": "2026-11-24T20:56:00", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T20:56:00", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T20:56:22", "evento": "gerar", "tentativa": 1, "segundos": 18.71, "titulo": "Agenda furada? Você não está sozinha.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:56:37", "evento": "avaliar", "tentativa": 1, "nota": 14, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T20:57:02", "evento": "gerar", "tentativa": 2, "segundos": 21.13, "titulo": "Agenda cheia de faltas? É só saber onde colocar os ‘X’ vermelhos.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:57:16", "evento": "avaliar", "tentativa": 2, "nota": 25, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T20:57:48", "evento": "gerar", "tentativa": 3, "segundos": 28.98, "titulo": "Agenda cheia de faltas? É só saber onde colocar os ‘X’ vermelhos — e não só isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:58:02", "evento": "avaliar", "tentativa": 3, "nota": 26, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "forca_hook_0a10"]}
+{"t": "2026-11-24T20:58:02", "evento": "responder", "nota_final": 26, "tentativas": 3}
+{"t": "2026-11-24T20:58:35", "evento": "entender", "pedido": "Post Impulso: como lojista de roupas MEI calcula preço (custo + markup 2x) sem prejuízo, incluindo taxas de maquininha?", "plano": {"segmento": "varejo_e_vendas", "negocio": "lojista de roupas MEI", "objetivo": "ensinar como calcular preço com markup 2x sem prejuízo, incluindo taxas de maquininha", "publico": "empreendedores MEI que vendem roupas, especialmente em varejo físico ou online, preocupados com margem e custos operacionais", "problema": "não sabem como calcular preço de venda considerando custo, markup e taxas de pagamento", "restricoes": "não é contabilidade, não é gestão financeira, não é pagamento ou maquininha em si, mas sim como aplicar esses fatores no cálculo de preço"}}
+{"t": "2026-11-24T20:58:35", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T20:58:35", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "ea01v_tH1JY", "e_hmaDCWkjQ", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T20:59:10", "evento": "gerar", "tentativa": 1, "segundos": 31.89, "titulo": "Você está vendendo roupas e ainda não sabe como calcular preço com markup 2x sem prejuízo?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T20:59:25", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T20:59:25", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T21:00:07", "evento": "entender", "pedido": "Post do Impulso para MEI sobre emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS.", "plano": {"segmento": "mei_e_contabilidade", "negocio": "MEI que emite NFS-e para vendas B2B com retenção de ISS", "objetivo": "Apoiar MEI na emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS", "publico": "MEI que atua em vendas B2B e precisa emitir NFS-e com retenção de ISS", "problema": "Dificuldade em emitir NFS-e corretamente em vendas B2B com retenção de ISS", "restricoes": "Apenas MEI que emitem NFS-e para vendas B2B com retenção de ISS"}}
+{"t": "2026-11-24T21:00:07", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:00:07", "evento": "referencias", "n": 5, "ids": ["rlhzG-kPvus", "MzEaFevt_Ks", "wCfWbFnKlCo", "OLm0DhVIWd0", "dzA8ezGR3Xg"]}
+{"t": "2026-11-24T21:00:35", "evento": "gerar", "tentativa": 1, "segundos": 24.85, "titulo": "MEI, você está emitindo NFS-e corretamente em vendas B2B com ISS?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:00:52", "evento": "avaliar", "tentativa": 1, "nota": 81, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T21:00:52", "evento": "responder", "nota_final": 81, "tentativas": 1}
+{"t": "2026-11-24T21:01:23", "evento": "entender", "pedido": "Post do Impulso para dono de padaria de bairro com maquininha parada, perdendo vendas por não aceitar Pix parcelado.", "plano": {"segmento": "alimentacao", "negocio": "padaria de bairro", "objetivo": "reverter perda de vendas por não aceitar Pix parcelado", "publico": "dono de padaria de bairro", "problema": "maquininha parada, perde vendas por não aceitar Pix parcelado", "restricoes": "não é contabilidade, não é pagamentos, não é gestão, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:01:23", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:01:23", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:01:51", "evento": "gerar", "tentativa": 1, "segundos": 25.09, "titulo": "Maquininha parada? Perde vendas por não aceitar Pix parcelado.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:02:09", "evento": "avaliar", "tentativa": 1, "nota": 49, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:02:39", "evento": "gerar", "tentativa": 2, "segundos": 26.3, "titulo": "Pix parcelado é dinheiro que você tá deixando escapar — e pode ser ativo sem pagar nada.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:02:55", "evento": "avaliar", "tentativa": 2, "nota": 68, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:02:55", "evento": "responder", "nota_final": 68, "tentativas": 2}
+{"t": "2026-11-24T21:03:26", "evento": "entender", "pedido": "Como uma artesã de crochê sem tempo nem verba pode combinar Reels, hashtags e prova social para crescer organicamente no Instagram?", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesã de crochê", "objetivo": "crescer organicamente no Instagram", "publico": "artesãs de crochê sem tempo nem verba", "problema": "falta de tempo e verba para marketing", "restricoes": "sem orçamento, sem tempo para produção de conteúdo complexo"}}
+{"t": "2026-11-24T21:03:26", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:03:26", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T21:04:01", "evento": "gerar", "tentativa": 1, "segundos": 28.32, "titulo": "Você não precisa de verba pra vender crochê no Instagram", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T21:04:16", "evento": "avaliar", "tentativa": 1, "nota": 27, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T21:04:49", "evento": "gerar", "tentativa": 2, "segundos": 29.49, "titulo": "Vende crochê no Instagram sem gastar um centavo — e sem ficar no seu celular 24h", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:05:05", "evento": "avaliar", "tentativa": 2, "nota": 33, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T21:05:49", "evento": "gerar", "tentativa": 3, "segundos": 43.76, "titulo": "Vende crochê no Instagram sem gastar um centavo — e sem ficar no celular 24h", "acabamento": []}
+{"t": "2026-11-24T21:06:05", "evento": "avaliar", "tentativa": 3, "nota": 55, "problemas": [], "sugestoes": ["tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:06:05", "evento": "responder", "nota_final": 55, "tentativas": 3}
+{"t": "2026-11-24T21:06:41", "evento": "entender", "pedido": "Como a mistura do caixa da barbearia com o dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso convence?", "plano": {"segmento": "beleza", "negocio": "barbearia", "objetivo": "explicar como misturar caixa da barbearia com dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso Stone pode convencer empreendedores a separar esses fluxos para melhor gestão financeira e legalidade", "publico": "donos de barbearia", "problema": "misturar dinheiro pessoal com caixa da barbearia leva a distorções em lucro, pró-labore e fluxo de caixa, dificultando a gestão e a legalidade do negócio", "restricoes": "não é contabilidade, não é maquininha, não é consultoria de gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:06:41", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:06:41", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:07:19", "evento": "gerar", "tentativa": 1, "segundos": 35.03, "titulo": "Você tá misturando dinheiro pessoal com a barbearia? Isso distorce seu lucro — e pode te atrapalhar legalmente.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:07:36", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:07:36", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T21:08:13", "evento": "entender", "pedido": "E se o fornecedor dobrasse o preço do ingrediente amanhã? Como a confeiteira ajustaria preços das encomendas no post do Impulso?", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajustar preços das encomendas diante de aumento de custo de ingrediente", "publico": "confeiteiras por encomenda que enfrentam flutuações de preço de insumos", "problema": "aumento súbito de preço de ingrediente impacta margem de lucro", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:08:13", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:08:13", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:08:43", "evento": "gerar", "tentativa": 1, "segundos": 23.19, "titulo": "Preço do ingrediente subiu? Ajuste seu preço antes que a margem vá pro chão.", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T21:08:58", "evento": "avaliar", "tentativa": 1, "nota": 54, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:09:23", "evento": "gerar", "tentativa": 2, "segundos": 24.97, "titulo": "Leite condensado subiu? Você já aumentou o preço do seu bolo trufado?", "acabamento": []}
+{"t": "2026-11-24T21:09:38", "evento": "avaliar", "tentativa": 2, "nota": 69, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:09:38", "evento": "responder", "nota_final": 69, "tentativas": 2}
+{"t": "2026-11-24T21:10:19", "evento": "entender", "pedido": "Imagine um eletricista autônomo dobrando clientes em 1 mês: como um post do Impulso o ajudaria a definir quanto cobrar por visita?", "plano": {"segmento": "servicos_e_outros", "negocio": "eletricista autônomo", "objetivo": "ajudar a definir quanto cobrar por visita", "publico": "eletricistas autônomos ou empreendedores de serviços elétricos", "problema": "dificuldade em definir preço por visita, sem perder clientes ou ser subvalorizado", "restricoes": "não é contabilidade, não é pagamento, não é gestão, não é varejo, não é alimentação, não é beleza, não é artesanato, não é festa"}}
+{"t": "2026-11-24T21:10:19", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:10:19", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T21:10:48", "evento": "gerar", "tentativa": 1, "segundos": 25.45, "titulo": "Como cobrar por visita sem perder clientes", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:11:06", "evento": "avaliar", "tentativa": 1, "nota": 70, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:11:06", "evento": "responder", "nota_final": 70, "tentativas": 1}
+{"t": "2026-11-24T21:11:39", "evento": "entender", "pedido": "Compare posts do Impulso: desconto fidelidade vs. clube de assinatura mensal para salão fidelizar clientes.", "plano": {"segmento": "beleza", "negocio": "salão", "objetivo": "fidelizar clientes", "publico": "clientes de salão de beleza", "problema": "manter clientes fiéis em um mercado competitivo", "restricoes": "não é contabilidade, não é pagamento, não é gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:11:39", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:11:39", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:12:05", "evento": "gerar", "tentativa": 1, "segundos": 22.89, "titulo": "Como manter clientes fiéis no salão — sem ficar ‘fazendo tudo’", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:12:20", "evento": "avaliar", "tentativa": 1, "nota": 13, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T21:12:44", "evento": "gerar", "tentativa": 2, "segundos": 23.52, "titulo": "Fidelizar clientes no salão? É só lembrar que eles são seus — não do concorrente.", "acabamento": []}
+{"t": "2026-11-24T21:12:57", "evento": "avaliar", "tentativa": 2, "nota": 21, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T21:13:20", "evento": "gerar", "tentativa": 3, "segundos": 23.09, "titulo": "Fidelizar clientes no salão? É só lembrar que eles não são ‘clientes’… são ‘pessoas’.", "acabamento": []}
+{"t": "2026-11-24T21:13:34", "evento": "avaliar", "tentativa": 3, "nota": 24, "problemas": [], "sugestoes": ["duracao_faixa", "tom", "usa_linguagem_regional", "tema_principal", "legenda_tamanho"]}
+{"t": "2026-11-24T21:13:35", "evento": "responder", "nota_final": 24, "tentativas": 3}
+{"t": "2026-11-24T21:14:07", "evento": "entender", "pedido": "Imagine uma loja de rua sem vendas por 1 semana. Como um post do Impulso reverteria isso?", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja física ou online que revende produtos", "objetivo": "reverter a queda de vendas com estratégias de marketing rápido e atraentes para o público local", "publico": "donos de lojas físicas ou de e-commerce que enfrentam baixa de vendas por falta de visibilidade ou engajamento", "problema": "loja parada por 1 semana sem vendas", "restricoes": "não é contabilidade, não é maquininha, não é consultoria financeira, não é artesanato ou festa, não é serviço local"}}
+{"t": "2026-11-24T21:14:07", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:14:07", "evento": "referencias", "n": 5, "ids": ["e_hmaDCWkjQ", "LgN63QPRwrg", "ea01v_tH1JY", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T21:14:52", "evento": "gerar", "tentativa": 1, "segundos": 41.39, "titulo": "Loja parada por 1 semana? Isso pode ser só uma falha de marketing — e você pode corrigir em 24h.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:15:12", "evento": "avaliar", "tentativa": 1, "nota": 60, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tom", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "pilar_impulso"]}
+{"t": "2026-11-24T21:15:12", "evento": "responder", "nota_final": 60, "tentativas": 1}
+{"t": "2026-11-24T21:15:47", "evento": "entender", "pedido": "Post do Impulso p/ dono de food truck: caixa some todo mês e difícil achar fornecedor de carne; tom empático, CTA claro, máx. 30s.", "plano": {"segmento": "alimentacao", "negocio": "food truck", "objetivo": "tom empático + CTA claro", "publico": "dono de food truck", "problema": "caixa some todo mês e difícil achar fornecedor de carne", "restricoes": "máx. 30s"}}
+{"t": "2026-11-24T21:15:47", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:15:47", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:16:11", "evento": "gerar", "tentativa": 1, "segundos": 21.12, "titulo": "Caixa sumiu e a carne? 🤯", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:16:25", "evento": "avaliar", "tentativa": 1, "nota": 66, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T21:16:25", "evento": "responder", "nota_final": 66, "tentativas": 1}
+{"t": "2026-11-24T21:20:18", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar confeiteiras a definirem preços justos e lucrativos para seus bolos vendidos pelo WhatsApp", "publico": "confeiteiras autônomas ou MEI que vendem bolo por encomenda e precisam de orientação sobre precificação e gestão de vendas", "problema": "não sabem quanto cobrar por bolo, sem saber como calcular custos e margem de lucro", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festa"}}
+{"t": "2026-11-24T21:20:20", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:20:20", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:20:52", "evento": "gerar", "tentativa": 1, "segundos": 23.26, "titulo": "Quanto cobrar por bolo? Aprenda a precificar sem perder clientes", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T21:21:13", "evento": "avaliar", "tentativa": 1, "nota": 72, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:21:13", "evento": "responder", "nota_final": 72, "tentativas": 1}
+{"t": "2026-11-24T21:21:38", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno", "problema": "agenda vazia nas terças e quartas", "restricoes": "não é contabilidade, não é pagamentos, não é gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:21:38", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:21:38", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:22:12", "evento": "gerar", "tentativa": 1, "segundos": 30.55, "titulo": "Agenda vazia nas terças e quartas? Isso é normal… até a gente te ensinar como mudar.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:22:46", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:24:19", "evento": "gerar", "tentativa": 2, "segundos": 31.37, "titulo": "Terça e quarta vazia? A gente não precisa esperar o cliente vir…", "acabamento": []}
+{"t": "2026-11-24T21:24:47", "evento": "avaliar", "tentativa": 2, "nota": 31, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:25:18", "evento": "gerar", "tentativa": 3, "segundos": 30.98, "titulo": "Terça e quarta vazia? A gente não precisa esperar o cliente vir…", "acabamento": []}
+{"t": "2026-11-24T21:25:18", "evento": "avaliar", "tentativa": 3, "nota": 31, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:25:18", "evento": "responder", "nota_final": 34, "tentativas": 3}
+{"t": "2026-11-24T21:25:38", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento", "problema": "dificuldade em vender online sem conhecimento de marketing digital", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festas, não é serviço local"}}
+{"t": "2026-11-24T21:25:39", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:25:39", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-24T21:26:50", "evento": "gerar", "tentativa": 1, "segundos": 62.25, "titulo": "Você tá vendendo no Instagram… mas não está vendendo direito?", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T21:27:21", "evento": "avaliar", "tentativa": 1, "nota": 76, "problemas": [], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-24T21:27:21", "evento": "responder", "nota_final": 76, "tentativas": 1}
+{"t": "2026-11-24T21:27:48", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro", "problema": "dificuldade de expandir atendimento para prédios da região", "restricoes": "não é varejo, nem contabilidade, nem pagamentos, nem gestão"}}
+{"t": "2026-11-24T21:27:48", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:27:48", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T21:28:19", "evento": "gerar", "tentativa": 1, "segundos": 26.88, "titulo": "Quer atender prédios da região? Isso aqui vai te salvar.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:28:31", "evento": "avaliar", "tentativa": 1, "nota": 50, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:28:58", "evento": "gerar", "tentativa": 2, "segundos": 26.49, "titulo": "Prédios não querem você? Tá na hora de mudar a estratégia.", "acabamento": []}
+{"t": "2026-11-24T21:29:11", "evento": "avaliar", "tentativa": 2, "nota": 32, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:29:46", "evento": "gerar", "tentativa": 3, "segundos": 34.29, "titulo": "Prédios não querem você? Tá na hora de mudar o jeito que entra.", "acabamento": []}
+{"t": "2026-11-24T21:29:59", "evento": "avaliar", "tentativa": 3, "nota": 55, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:29:59", "evento": "responder", "nota_final": 55, "tentativas": 3}
+{"t": "2026-11-24T21:30:26", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas", "problema": "perdem-se com nota fiscal e DAS", "restricoes": "não é contabilidade, nem pagamentos, nem gestão financeira"}}
+{"t": "2026-11-24T21:30:26", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:30:26", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T21:31:00", "evento": "gerar", "tentativa": 1, "segundos": 30.48, "titulo": "Nota fiscal e DAS? Não é só 'fazer' — é 'fazer direito'.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:31:21", "evento": "avaliar", "tentativa": 1, "nota": 62, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T21:31:21", "evento": "responder", "nota_final": 62, "tentativas": 1}
+{"t": "2026-11-24T21:31:44", "evento": "entender", "pedido": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos", "plano": {"segmento": "servicos_e_outros", "negocio": "manutenção de ar-condicionado", "objetivo": "atrair MEIs que querem mais orçamentos", "publico": "MEIs de manutenção de ar-condicionado", "problema": "dificuldade em conseguir mais orçamentos", "restricoes": "não é contabilidade, não é pagamento, não é gestão"}}
+{"t": "2026-11-24T21:31:44", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:31:44", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T21:32:10", "evento": "gerar", "tentativa": 1, "segundos": 22.19, "titulo": "Você tá perdendo orçamentos porque não faz isso", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:32:23", "evento": "avaliar", "tentativa": 1, "nota": 47, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:33:43", "evento": "gerar", "tentativa": 2, "segundos": 23.67, "titulo": "MEI de ar-condicionado: você tá perdendo orçamentos por isso", "acabamento": []}
+{"t": "2026-11-24T21:34:06", "evento": "avaliar", "tentativa": 2, "nota": 8, "problemas": [], "sugestoes": ["duracao_faixa", "tema_principal", "tom", "usa_linguagem_regional", "tipo_hook"]}
+{"t": "2026-11-24T21:34:53", "evento": "gerar", "tentativa": 3, "segundos": 47.67, "titulo": "MEI de ar-condicionado: como eu comecei a receber mais orçamentos (sem mudar meu preço)", "acabamento": []}
+{"t": "2026-11-24T21:35:21", "evento": "avaliar", "tentativa": 3, "nota": 19, "problemas": [], "sugestoes": ["tipo_hook", "duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T21:35:21", "evento": "responder", "nota_final": 47, "tentativas": 3}
+{"t": "2026-11-24T21:35:44", "evento": "entender", "pedido": "Post do Impulso para dono de food truck de açaí que perde vendas por falta de troco no PIX/maquininha em feiras.", "plano": {"segmento": "alimentacao", "negocio": "food truck de açaí", "objetivo": "resolver problema de falta de troco no PIX/maquininha em feiras", "publico": "dono de food truck de açaí", "problema": "perde vendas por falta de troco no PIX/maquininha em feiras", "restricoes": "não é contabilidade, não é consultoria, não é maquininha ou conta PJ"}}
+{"t": "2026-11-24T21:35:44", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:35:44", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:36:10", "evento": "gerar", "tentativa": 1, "segundos": 23.24, "titulo": "Falta de troco no PIX? Feira tá fechando e você ainda não vendeu!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:36:26", "evento": "avaliar", "tentativa": 1, "nota": 45, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T21:37:12", "evento": "gerar", "tentativa": 2, "segundos": 46.4, "titulo": "Falta de troco no PIX? Feira tá fechando e você ainda não vendeu?", "acabamento": []}
+{"t": "2026-11-24T21:37:28", "evento": "avaliar", "tentativa": 2, "nota": 27, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T21:38:15", "evento": "gerar", "tentativa": 3, "segundos": 47.7, "titulo": "Feira fechando e você ainda tá sem troco? Isso dói pra caralho!", "acabamento": []}
+{"t": "2026-11-24T21:38:29", "evento": "avaliar", "tentativa": 3, "nota": 90, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:38:29", "evento": "responder", "nota_final": 90, "tentativas": 3}
+{"t": "2026-11-24T21:38:56", "evento": "entender", "pedido": "Post do Impulso p/ manicure autônoma c/ agenda furada por faltas: inclua gancho, sinal antecipado de 30% via Pix e CTA WhatsApp.", "plano": {"segmento": "beleza", "negocio": "manicure autônoma", "objetivo": "alcançar manicures autônomas com problemas de gestão de agenda e faltas", "publico": "manicures autônomas que enfrentam faltas e desorganização na agenda", "problema": "agenda furada por faltas", "restricoes": "não é contabilidade, não é maquininha, não é gestão financeira, não é varejo, não é artesanato, não é serviço mecânico ou de manutenção, não é alimentação, não é festa ou decoração"}}
+{"t": "2026-11-24T21:38:56", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:38:56", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:39:24", "evento": "gerar", "tentativa": 1, "segundos": 24.66, "titulo": "Agenda furada? Isso é normal pra manicure autônoma", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:39:39", "evento": "avaliar", "tentativa": 1, "nota": 36, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T21:40:18", "evento": "gerar", "tentativa": 2, "segundos": 39.07, "titulo": "Agenda furada? Isso não é normal — é só falta de organização", "acabamento": []}
+{"t": "2026-11-24T21:40:34", "evento": "avaliar", "tentativa": 2, "nota": 36, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T21:41:20", "evento": "gerar", "tentativa": 3, "segundos": 42.46, "titulo": "Agenda furada? Isso é rotina… mas não tem que ser.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:41:34", "evento": "avaliar", "tentativa": 3, "nota": 25, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T21:41:34", "evento": "responder", "nota_final": 36, "tentativas": 3}
+{"t": "2026-11-24T21:42:03", "evento": "entender", "pedido": "Post Impulso: como lojista de roupas MEI calcula preço (custo + markup 2x) sem prejuízo, incluindo taxas de maquininha?", "plano": {"segmento": "varejo_e_vendas", "negocio": "lojista de roupas MEI", "objetivo": "ensinar como calcular preço com markup 2x sem prejuízo, incluindo taxas de maquininha", "publico": "empreendedores MEI que vendem roupas, especialmente em varejo físico ou online, preocupados com margem e custos operacionais", "problema": "não sabem como calcular preço de venda considerando custo, markup e taxas de pagamento", "restricoes": "não é contabilidade, não é gestão financeira, não é pagamento ou maquininha em si, mas sim como aplicar esses fatores no cálculo de preço"}}
+{"t": "2026-11-24T21:42:03", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:42:03", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "ea01v_tH1JY", "e_hmaDCWkjQ", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T21:42:42", "evento": "gerar", "tentativa": 1, "segundos": 35.62, "titulo": "Você está vendendo roupas e ainda não sabe como calcular preço com markup 2x sem prejuízo?", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:42:57", "evento": "avaliar", "tentativa": 1, "nota": 90, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:42:57", "evento": "responder", "nota_final": 90, "tentativas": 1}
+{"t": "2026-11-24T21:43:27", "evento": "entender", "pedido": "Post do Impulso para MEI sobre emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS.", "plano": {"segmento": "mei_e_contabilidade", "negocio": "MEI que emite NFS-e para vendas B2B com retenção de ISS", "objetivo": "Apoiar MEI na emissão de NFS-e via padrão nacional em vendas B2B com retenção de ISS", "publico": "MEI que atua em vendas B2B e precisa emitir NFS-e com retenção de ISS", "problema": "Dificuldade em emitir NFS-e corretamente em vendas B2B com retenção de ISS", "restricoes": "Apenas MEI que emitem NFS-e para vendas B2B com retenção de ISS"}}
+{"t": "2026-11-24T21:43:27", "evento": "padroes", "segmento": "mei_e_contabilidade", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:43:27", "evento": "referencias", "n": 5, "ids": ["rlhzG-kPvus", "MzEaFevt_Ks", "wCfWbFnKlCo", "OLm0DhVIWd0", "dzA8ezGR3Xg"]}
+{"t": "2026-11-24T21:44:07", "evento": "gerar", "tentativa": 1, "segundos": 36.7, "titulo": "MEI, você está emitindo NFS-e com ISS retido? Isso pode estar errado.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:44:25", "evento": "avaliar", "tentativa": 1, "nota": 98, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tipo_cta"]}
+{"t": "2026-11-24T21:44:25", "evento": "responder", "nota_final": 98, "tentativas": 1}
+{"t": "2026-11-24T21:44:53", "evento": "entender", "pedido": "Post do Impulso para dono de padaria de bairro com maquininha parada, perdendo vendas por não aceitar Pix parcelado.", "plano": {"segmento": "alimentacao", "negocio": "padaria de bairro", "objetivo": "reverter perda de vendas por não aceitar Pix parcelado", "publico": "dono de padaria de bairro", "problema": "maquininha parada, perde vendas por não aceitar Pix parcelado", "restricoes": "não é contabilidade, não é pagamentos, não é gestão, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:44:53", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:44:53", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:45:20", "evento": "gerar", "tentativa": 1, "segundos": 23.89, "titulo": "Maquininha parada? Perde vendas por não aceitar Pix parcelado.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:45:32", "evento": "avaliar", "tentativa": 1, "nota": 54, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:45:57", "evento": "gerar", "tentativa": 2, "segundos": 24.94, "titulo": "Maquininha parada? Você tá perdendo vendas porque não aceita Pix parcelado.", "acabamento": []}
+{"t": "2026-11-24T21:46:10", "evento": "avaliar", "tentativa": 2, "nota": 54, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:46:36", "evento": "gerar", "tentativa": 3, "segundos": 26.08, "titulo": "Maquininha parada? Você tá perdendo vendas porque não aceita Pix parcelado.", "acabamento": []}
+{"t": "2026-11-24T21:46:50", "evento": "avaliar", "tentativa": 3, "nota": 74, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "tipo_hook", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:46:50", "evento": "responder", "nota_final": 74, "tentativas": 3}
+{"t": "2026-11-24T21:47:14", "evento": "entender", "pedido": "Como uma artesã de crochê sem tempo nem verba pode combinar Reels, hashtags e prova social para crescer organicamente no Instagram?", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesã de crochê", "objetivo": "crescer organicamente no Instagram", "publico": "artesãs de crochê sem tempo nem verba", "problema": "falta de tempo e verba para marketing", "restricoes": "sem orçamento, sem tempo para produção de conteúdo complexo"}}
+{"t": "2026-11-24T21:47:14", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:47:14", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T21:47:41", "evento": "gerar", "tentativa": 1, "segundos": 23.95, "titulo": "Como vender mais crochê sem gastar um centavo no Instagram", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:47:56", "evento": "avaliar", "tentativa": 1, "nota": 9, "problemas": [], "sugestoes": ["tipo_hook", "duracao_faixa", "tema_principal", "tom", "usa_linguagem_regional"]}
+{"t": "2026-11-24T21:48:24", "evento": "gerar", "tentativa": 2, "segundos": 27.77, "titulo": "Tem 30 minutos pra crescer no Instagram? É só fazer isso.", "acabamento": []}
+{"t": "2026-11-24T21:48:42", "evento": "avaliar", "tentativa": 2, "nota": 41, "problemas": [], "sugestoes": ["duracao_faixa", "tom", "usa_linguagem_regional", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T21:49:22", "evento": "gerar", "tentativa": 3, "segundos": 40.34, "titulo": "Tem 30 minutos pra crescer no Instagram? É só fazer isso.", "acabamento": []}
+{"t": "2026-11-24T21:49:36", "evento": "avaliar", "tentativa": 3, "nota": 52, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:49:36", "evento": "responder", "nota_final": 52, "tentativas": 3}
+{"t": "2026-11-24T21:50:00", "evento": "entender", "pedido": "Como a mistura do caixa da barbearia com o dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso convence?", "plano": {"segmento": "beleza", "negocio": "barbearia", "objetivo": "explicar como misturar caixa da barbearia com dinheiro pessoal distorce lucro, pró-labore e fluxo de caixa, e como um post do Impulso Stone pode convencer empreendedores a separar esses fluxos para melhor gestão financeira e legalidade", "publico": "donos de barbearia", "problema": "misturar dinheiro pessoal com caixa da barbearia leva a distorções em lucro, pró-labore e fluxo de caixa, dificultando a gestão e a legalidade do negócio", "restricoes": "não é contabilidade, não é maquininha, não é consultoria de gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:50:00", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:50:00", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:50:37", "evento": "gerar", "tentativa": 1, "segundos": 29.44, "titulo": "Seu dinheiro pessoal tá entrando na caixa da barbearia? Isso distorce tudo.", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T21:51:05", "evento": "avaliar", "tentativa": 1, "nota": 93, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:51:05", "evento": "responder", "nota_final": 93, "tentativas": 1}
+{"t": "2026-11-24T21:51:34", "evento": "entender", "pedido": "E se o fornecedor dobrasse o preço do ingrediente amanhã? Como a confeiteira ajustaria preços das encomendas no post do Impulso?", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajustar preços das encomendas diante de aumento de custo de ingrediente", "publico": "confeiteiras por encomenda que enfrentam flutuações de preço de insumos", "problema": "aumento súbito de preço de ingrediente impacta margem de lucro", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:51:34", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:51:34", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T21:52:05", "evento": "gerar", "tentativa": 1, "segundos": 27.32, "titulo": "Preço do ingrediente subiu? Ajuste seu preço antes que a margem vá pro chão.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:52:22", "evento": "avaliar", "tentativa": 1, "nota": 79, "problemas": [], "sugestoes": ["usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:52:22", "evento": "responder", "nota_final": 79, "tentativas": 1}
+{"t": "2026-11-24T21:52:47", "evento": "entender", "pedido": "Imagine um eletricista autônomo dobrando clientes em 1 mês: como um post do Impulso o ajudaria a definir quanto cobrar por visita?", "plano": {"segmento": "servicos_e_outros", "negocio": "eletricista autônomo", "objetivo": "ajudar a definir quanto cobrar por visita", "publico": "eletricistas autônomos ou empreendedores de serviços elétricos", "problema": "dificuldade em definir preço por visita, sem perder clientes ou ser subvalorizado", "restricoes": "não é contabilidade, não é pagamento, não é gestão, não é varejo, não é alimentação, não é beleza, não é artesanato, não é festa"}}
+{"t": "2026-11-24T21:52:47", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:52:47", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T21:53:18", "evento": "gerar", "tentativa": 1, "segundos": 27.55, "titulo": "Como cobrar por visita sem perder clientes", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:53:35", "evento": "avaliar", "tentativa": 1, "nota": 92, "problemas": [], "sugestoes": ["usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T21:53:35", "evento": "responder", "nota_final": 92, "tentativas": 1}
+{"t": "2026-11-24T21:54:00", "evento": "entender", "pedido": "Compare posts do Impulso: desconto fidelidade vs. clube de assinatura mensal para salão fidelizar clientes.", "plano": {"segmento": "beleza", "negocio": "salão", "objetivo": "fidelizar clientes", "publico": "clientes de salão de beleza", "problema": "manter clientes fiéis em um mercado competitivo", "restricoes": "não é contabilidade, não é pagamento, não é gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T21:54:00", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T21:54:00", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T21:54:26", "evento": "gerar", "tentativa": 1, "segundos": 22.26, "titulo": "Como manter clientes fiéis no salão — sem gastar um centavo", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:54:41", "evento": "avaliar", "tentativa": 1, "nota": 25, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "legenda_tamanho"]}
+{"t": "2026-11-24T21:55:07", "evento": "gerar", "tentativa": 2, "segundos": 26.05, "titulo": "Fidelidade no salão? É só fazer ela se sentir ‘aqui em casa’.", "acabamento": []}
+{"t": "2026-11-24T21:55:23", "evento": "avaliar", "tentativa": 2, "nota": 11, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "tom", "usa_linguagem_regional", "tipo_hook"]}
+{"t": "2026-11-24T21:55:51", "evento": "gerar", "tentativa": 3, "segundos": 27.1, "titulo": "Fidelizar clientes no salão? É só fazer eles se sentirem ‘da família’.", "acabamento": []}
+{"t": "2026-11-24T21:56:08", "evento": "avaliar", "tentativa": 3, "nota": 42, "problemas": [], "sugestoes": ["duracao_faixa", "tom", "usa_linguagem_regional", "tema_principal", "legenda_tamanho"]}
+{"t": "2026-11-24T21:56:08", "evento": "responder", "nota_final": 42, "tentativas": 3}
+{"t": "2026-11-24T21:56:32", "evento": "entender", "pedido": "Imagine uma loja de rua sem vendas por 1 semana. Como um post do Impulso reverteria isso?", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja física ou online que revende produtos", "objetivo": "reverter a queda de vendas com estratégias de marketing rápido e atraentes para o público local", "publico": "donos de lojas físicas ou de e-commerce que enfrentam baixa de vendas por falta de visibilidade ou engajamento", "problema": "loja parada por 1 semana sem vendas", "restricoes": "não é contabilidade, não é maquininha, não é consultoria financeira, não é artesanato ou festa, não é serviço local"}}
+{"t": "2026-11-24T21:56:32", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T21:56:32", "evento": "referencias", "n": 5, "ids": ["e_hmaDCWkjQ", "LgN63QPRwrg", "ea01v_tH1JY", "9owWPAOSP5M", "ptPg3Vb7QQQ"]}
+{"t": "2026-11-24T21:57:19", "evento": "gerar", "tentativa": 1, "segundos": 44.17, "titulo": "Loja parada por 1 semana? Isso pode ser sua chance de virar viral!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:57:38", "evento": "avaliar", "tentativa": 1, "nota": 52, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T21:58:49", "evento": "gerar", "tentativa": 2, "segundos": 67.38, "titulo": "Loja parada? É hora de chamar atenção — e não esperar que as vendas voltem sozinhas!", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T21:59:13", "evento": "avaliar", "tentativa": 2, "nota": 52, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:00:15", "evento": "gerar", "tentativa": 3, "segundos": 61.73, "titulo": "Loja parada? Não é fim — é hora de chamar atenção (e vender de novo!)", "acabamento": []}
+{"t": "2026-11-24T22:00:33", "evento": "avaliar", "tentativa": 3, "nota": 45, "problemas": [], "sugestoes": ["tema_principal", "tom", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:00:33", "evento": "responder", "nota_final": 52, "tentativas": 3}
+{"t": "2026-11-24T22:00:59", "evento": "entender", "pedido": "Post do Impulso p/ dono de food truck: caixa some todo mês e difícil achar fornecedor de carne; tom empático, CTA claro, máx. 30s.", "plano": {"segmento": "alimentacao", "negocio": "food truck", "objetivo": "tom empático + CTA claro", "publico": "dono de food truck", "problema": "caixa some todo mês e difícil achar fornecedor de carne", "restricoes": "máx. 30s"}}
+{"t": "2026-11-24T22:00:59", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T22:00:59", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "z35VdPyUqeY", "YeWHP2326ws", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T22:01:22", "evento": "gerar", "tentativa": 1, "segundos": 19.62, "titulo": "Caixa sumiu e a carne? 🤯", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:01:36", "evento": "avaliar", "tentativa": 1, "nota": 26, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T22:01:59", "evento": "gerar", "tentativa": 2, "segundos": 19.62, "titulo": "Caixa sumiu… e a carne? 🤯", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:02:12", "evento": "avaliar", "tentativa": 2, "nota": 24, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "tema_principal"]}
+{"t": "2026-11-24T22:02:31", "evento": "gerar", "tentativa": 3, "segundos": 19.94, "titulo": "Caixa sumiu… e a carne? 🤯", "acabamento": []}
+{"t": "2026-11-24T22:02:45", "evento": "avaliar", "tentativa": 3, "nota": 33, "problemas": [], "sugestoes": ["duracao_faixa", "tom", "legenda_tamanho", "tema_principal", "formato_video"]}
+{"t": "2026-11-24T22:02:45", "evento": "responder", "nota_final": 33, "tentativas": 3}
+{"t": "2026-11-24T22:04:05", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar confeiteiras a definirem preços justos e lucrativos para seus bolos vendidos pelo WhatsApp", "publico": "confeiteiras autônomas ou MEI que vendem bolo por encomenda e precisam de orientação sobre precificação e gestão de vendas", "problema": "não sabem quanto cobrar por bolo, sem saber como calcular custos e margem de lucro", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festa"}}
+{"t": "2026-11-24T22:04:07", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T22:04:07", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T22:04:07", "evento": "gerar", "tentativa": 1, "segundos": 23.26, "titulo": "Quanto cobrar por bolo? Aprenda a precificar sem perder clientes", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T22:04:12", "evento": "avaliar", "tentativa": 1, "nota": 72, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T22:04:12", "evento": "responder", "nota_final": 72, "tentativas": 1}
+{"t": "2026-11-24T22:04:12", "evento": "entender", "pedido": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta", "plano": {"segmento": "beleza", "negocio": "salão de beleza", "objetivo": "ajudar donas de salão com agenda vazia na terça e quarta", "publico": "donas de salão de beleza pequeno", "problema": "agenda vazia nas terças e quartas", "restricoes": "não é contabilidade, não é pagamentos, não é gestão, não é varejo, não é artesanato, não é serviço local"}}
+{"t": "2026-11-24T22:04:13", "evento": "padroes", "segmento": "beleza", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T22:04:13", "evento": "referencias", "n": 1, "ids": ["awwtaRXnBjo"]}
+{"t": "2026-11-24T22:04:13", "evento": "gerar", "tentativa": 1, "segundos": 30.55, "titulo": "Agenda vazia nas terças e quartas? Isso é normal… até a gente te ensinar como mudar.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:04:13", "evento": "avaliar", "tentativa": 1, "nota": 34, "problemas": ["o texto na tela repete o título: escreva outra frase curta para a capa"], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:04:54", "evento": "gerar", "tentativa": 2, "segundos": 37.61, "titulo": "Terça e quarta vazia? A gente não tá sendo maluco… é só que você tá esquecendo isso.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:05:09", "evento": "avaliar", "tentativa": 2, "nota": 20, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T22:05:41", "evento": "gerar", "tentativa": 3, "segundos": 31.52, "titulo": "Terça e quarta vazia? A gente não tá sendo maluco… é só que você tá esquecendo isso.", "acabamento": []}
+{"t": "2026-11-24T22:05:41", "evento": "avaliar", "tentativa": 3, "nota": 20, "problemas": [], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho"]}
+{"t": "2026-11-24T22:05:41", "evento": "responder", "nota_final": 34, "tentativas": 3}
+{"t": "2026-11-24T22:05:41", "evento": "entender", "pedido": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram", "plano": {"segmento": "varejo_e_vendas", "negocio": "loja de roupas de bairro que vende no Instagram", "objetivo": "alcançar donas de loja de roupas de bairro que querem expandir vendas para o Instagram", "publico": "empreendedoras de varejo local com presença digital em crescimento", "problema": "dificuldade em vender online sem conhecimento de marketing digital", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira, não é artesanato ou festas, não é serviço local"}}
+{"t": "2026-11-24T22:05:41", "evento": "padroes", "segmento": "varejo_e_vendas", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T22:05:41", "evento": "referencias", "n": 5, "ids": ["m2F9Yu4oqe8", "y6J3e5pTPe0", "e_hmaDCWkjQ", "ptPg3Vb7QQQ", "uAiw_uo_RoM"]}
+{"t": "2026-11-24T22:05:41", "evento": "gerar", "tentativa": 1, "segundos": 62.25, "titulo": "Você tá vendendo no Instagram… mas não está vendendo direito?", "acabamento": ["texto_na_tela", "legenda"]}
+{"t": "2026-11-24T22:05:41", "evento": "avaliar", "tentativa": 1, "nota": 76, "problemas": [], "sugestoes": ["tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso", "tipo_cta"]}
+{"t": "2026-11-24T22:05:41", "evento": "responder", "nota_final": 76, "tentativas": 1}
+{"t": "2026-11-24T22:05:41", "evento": "entender", "pedido": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região", "plano": {"segmento": "servicos_e_outros", "negocio": "lavanderia de bairro", "objetivo": "atender prédios da região", "publico": "donos de lavanderia de bairro", "problema": "dificuldade de expandir atendimento para prédios da região", "restricoes": "não é varejo, nem contabilidade, nem pagamentos, nem gestão"}}
+{"t": "2026-11-24T22:05:41", "evento": "padroes", "segmento": "servicos_e_outros", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T22:05:41", "evento": "referencias", "n": 5, "ids": ["6TMsMRsfzTE", "GG4yYezMW1Q", "fI3YBIfgIHw", "ea01v_tH1JY", "Vpu-A9oycyQ"]}
+{"t": "2026-11-24T22:05:41", "evento": "gerar", "tentativa": 1, "segundos": 26.88, "titulo": "Quer atender prédios da região? Isso aqui vai te salvar.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:05:42", "evento": "avaliar", "tentativa": 1, "nota": 50, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["duracao_faixa", "tema_principal", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:05:42", "evento": "gerar", "tentativa": 2, "segundos": 26.49, "titulo": "Prédios não querem você? Tá na hora de mudar a estratégia.", "acabamento": []}
+{"t": "2026-11-24T22:05:42", "evento": "avaliar", "tentativa": 2, "nota": 32, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["tema_principal", "duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:05:42", "evento": "gerar", "tentativa": 3, "segundos": 34.29, "titulo": "Prédios não querem você? Tá na hora de mudar o jeito que entra.", "acabamento": []}
+{"t": "2026-11-24T22:05:42", "evento": "avaliar", "tentativa": 3, "nota": 55, "problemas": ["o post mostra o Impulso como app (tela, botão): o Impulso é um programa de conteúdo"], "sugestoes": ["tema_principal", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "pilar_impulso"]}
+{"t": "2026-11-24T22:05:42", "evento": "responder", "nota_final": 55, "tentativas": 3}
+{"t": "2026-11-24T22:05:42", "evento": "entender", "pedido": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS", "plano": {"segmento": "artesanato_e_festas", "negocio": "artesãs autônomas que fazem lembrancinhas personalizadas", "objetivo": "ajudar a lidar com nota fiscal e DAS", "publico": "artesãs autônomas, MEI, que vendem lembrancinhas personalizadas", "problema": "perdem-se com nota fiscal e DAS", "restricoes": "não é contabilidade, nem pagamentos, nem gestão financeira"}}
+{"t": "2026-11-24T22:05:42", "evento": "padroes", "segmento": "artesanato_e_festas", "fonte": "base inteira", "confianca": "baixa"}
+{"t": "2026-11-24T22:05:42", "evento": "referencias", "n": 1, "ids": ["-vSC95MxcgQ"]}
+{"t": "2026-11-24T22:05:42", "evento": "gerar", "tentativa": 1, "segundos": 30.48, "titulo": "Nota fiscal e DAS? Não é só 'fazer' — é 'fazer direito'.", "acabamento": ["texto_na_tela"]}
+{"t": "2026-11-24T22:05:42", "evento": "avaliar", "tentativa": 1, "nota": 62, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "tipo_hook", "legenda_tamanho", "formato_video"]}
+{"t": "2026-11-24T22:05:42", "evento": "responder", "nota_final": 62, "tentativas": 1}
+{"t": "2026-11-24T22:21:26", "evento": "entender", "pedido": "Post do Impulso para confeiteiras que vendem bolo por encomenda e não sabem quanto cobrar", "plano": {"segmento": "alimentacao", "negocio": "confeitaria por encomenda", "objetivo": "ajudar a definir preço de venda", "publico": "confeiteiras que vendem bolo por encomenda e não sabem quanto cobrar", "problema": "incerteza sobre preços de venda", "restricoes": "não é contabilidade, não é pagamento, não é gestão financeira"}}
+{"t": "2026-11-24T22:21:26", "evento": "padroes", "segmento": "alimentacao", "fonte": "segmento", "confianca": "alta"}
+{"t": "2026-11-24T22:21:26", "evento": "referencias", "n": 5, "ids": ["qcYTJqb37qQ", "EPUQ7Zgybuw", "6TMsMRsfzTE", "fc7sL9wZXIc", "oeKP40XXuqs"]}
+{"t": "2026-11-24T22:22:00", "evento": "gerar", "tentativa": 1, "segundos": 33.97, "titulo": "Você está cobrando menos do que merece? 🤔", "acabamento": []}
+{"t": "2026-11-24T22:22:22", "evento": "avaliar", "tentativa": 1, "nota": 68, "problemas": [], "sugestoes": ["duracao_faixa", "usa_linguagem_regional", "legenda_tamanho", "tema_principal", "tipo_cta"]}
+{"t": "2026-11-24T22:22:22", "evento": "responder", "nota_final": 68, "tentativas": 1}

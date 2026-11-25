@@ -1,0 +1,3 @@
+{"t": "2026-11-22T01:54:30", "ferramenta": "padroes_do_segmento", "args": {"segmento": "beleza"}, "segundos": 1.15}
+{"t": "2026-11-22T01:54:32", "ferramenta": "consultar_base", "args": {"sql": "select count(*) n from rubrica"}, "segundos": 0.01}
+{"t": "2026-11-22T01:54:32", "ferramenta": "consultar_base", "args": {"sql": "delete from rubrica"}, "segundos": 0.0}

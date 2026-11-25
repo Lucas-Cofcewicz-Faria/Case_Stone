@@ -1,0 +1,21 @@
+{
+  "handle": "impulsostone",
+  "fonte": "relatorio_impulso_stone_instagram.pdf (capturas de Insights, mai–out/2026)",
+  "seguidores": 3692,
+  "crescimento_liquido": 1813,
+  "visualizacoes_90d": 626036,
+  "visualizadores_90d": 213179,
+  "views_nao_seguidores_pct": 93.9,
+  "views_por_formato_pct": {"reels": 52.5, "stories": 32.7, "posts": 14.7},
+  "publico_feminino_pct": 70.5,
+  "faixa_etaria_pct": {"18-24": 3.3, "25-34": 15.4, "35-44": 23.2, "45-54": 24.3, "55-64": 16.9, "65+": 16.8},
+  "pilares_editoriais": {
+    "educacao_financeira": "Precificação, custos, caixa e lucro",
+    "gestao_e_vendas": "Atendimento, pós-venda e estratégias comerciais",
+    "historias_reais": "Trajetórias, desafios e conquistas",
+    "especialistas": "Oficinas, mentorias e orientações",
+    "comunidade": "Convites, interações e oportunidades"
+  },
+  "tom_de_voz": "Próximo, acolhedor, educativo, encorajador e interativo; linguagem simples e direta; sem excesso de jargões ou promessas exageradas.",
+  "indicadores_pendentes": ["compartilhamentos", "salvamentos", "alcance por publicação", "retenção de Reels", "conversões"]
+}

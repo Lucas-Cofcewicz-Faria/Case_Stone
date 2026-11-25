@@ -1,0 +1,35 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='760' height='400' viewBox='0 0 760 400' role='img' aria-label='Conversa mediana por quintil da nota do avaliador' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif'>
+<title>Conversa mediana por quintil da nota do avaliador</title>
+<rect width='760' height='400' fill='#fcfcfb'/>
+<text x='24' y='36' font-size='19' font-weight='600' fill='#0b0b0b'>Nota maior, mais conversa (mas o sinal é fraco)</text>
+<text x='24' y='60' font-size='13' fill='#52514e'>Conversa mediana (comentários + 2·intenção por mil views) por quintil da nota, em perfis fora do treino.</text>
+<text x='24' y='78' font-size='13' fill='#52514e'>AUC da validação cruzada por perfil: 0,55 (0,5 = acaso).</text>
+<line x1='70' y1='320.0' x2='730' y2='320.0' stroke='#c3c2b7' stroke-width='1'/>
+<text x='60' y='324.0' font-size='12' fill='#898781' text-anchor='end'>0</text>
+<line x1='70' y1='251.2' x2='730' y2='251.2' stroke='#e1e0d9' stroke-width='1'/>
+<text x='60' y='255.2' font-size='12' fill='#898781' text-anchor='end'>0,5</text>
+<line x1='70' y1='182.5' x2='730' y2='182.5' stroke='#e1e0d9' stroke-width='1'/>
+<text x='60' y='186.5' font-size='12' fill='#898781' text-anchor='end'>1,0</text>
+<line x1='70' y1='113.8' x2='730' y2='113.8' stroke='#e1e0d9' stroke-width='1'/>
+<text x='60' y='117.8' font-size='12' fill='#898781' text-anchor='end'>1,5</text>
+<path d='M98.6,320 V295.1 Q98.6,291.1 102.6,291.1 H167.4 Q171.4,291.1 171.4,295.1 V320 Z' fill='#2a78d6'/>
+<text x='135.0' y='283.1' font-size='13' font-weight='600' fill='#0b0b0b' text-anchor='middle'>0,21</text>
+<text x='135.0' y='340' font-size='12' fill='#52514e' text-anchor='middle'>1º (nota baixa)</text>
+<text x='135.0' y='357' font-size='11' fill='#898781' text-anchor='middle'>7,1% no top</text>
+<path d='M228.6,320 V270.4 Q228.6,266.4 232.6,266.4 H297.4 Q301.4,266.4 301.4,270.4 V320 Z' fill='#2a78d6'/>
+<text x='265.0' y='258.4' font-size='13' font-weight='600' fill='#0b0b0b' text-anchor='middle'>0,39</text>
+<text x='265.0' y='340' font-size='12' fill='#52514e' text-anchor='middle'>2º</text>
+<text x='265.0' y='357' font-size='11' fill='#898781' text-anchor='middle'>9,6% no top</text>
+<path d='M358.6,320 V237.4 Q358.6,233.4 362.6,233.4 H427.4 Q431.4,233.4 431.4,237.4 V320 Z' fill='#2a78d6'/>
+<text x='395.0' y='225.4' font-size='13' font-weight='600' fill='#0b0b0b' text-anchor='middle'>0,63</text>
+<text x='395.0' y='340' font-size='12' fill='#52514e' text-anchor='middle'>3º</text>
+<text x='395.0' y='357' font-size='11' fill='#898781' text-anchor='middle'>9,4% no top</text>
+<path d='M488.6,320 V131.5 Q488.6,127.5 492.6,127.5 H557.4 Q561.4,127.5 561.4,131.5 V320 Z' fill='#2a78d6'/>
+<text x='525.0' y='119.5' font-size='13' font-weight='600' fill='#0b0b0b' text-anchor='middle'>1,4</text>
+<text x='525.0' y='340' font-size='12' fill='#52514e' text-anchor='middle'>4º</text>
+<text x='525.0' y='357' font-size='11' fill='#898781' text-anchor='middle'>12,0% no top</text>
+<path d='M618.6,320 V138.4 Q618.6,134.4 622.6,134.4 H687.4 Q691.4,134.4 691.4,138.4 V320 Z' fill='#2a78d6'/>
+<text x='655.0' y='126.4' font-size='13' font-weight='600' fill='#0b0b0b' text-anchor='middle'>1,35</text>
+<text x='655.0' y='340' font-size='12' fill='#52514e' text-anchor='middle'>5º (nota alta)</text>
+<text x='655.0' y='357' font-size='11' fill='#898781' text-anchor='middle'>12,2% no top</text>
+</svg>

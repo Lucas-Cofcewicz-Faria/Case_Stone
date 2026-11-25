@@ -1,0 +1,58 @@
+:root {
+  --chao: #020805;
+  --verde: #00a868;
+  --menta: #7cffc4;
+  --papel: #e9fff4;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; overflow: hidden; overscroll-behavior: none; }
+
+body {
+  background: var(--chao);
+  color: var(--papel);
+  font-family: var(--f-mono), ui-monospace, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+
+::selection { background: var(--verde); color: var(--chao); }
+
+a { color: var(--menta); text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+
+button, input, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+:focus-visible { outline: 2px solid var(--menta); outline-offset: 3px; }
+
+textarea { caret-color: var(--menta); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* voo do comprovante: da fenda até o centro, arranca e assenta (ease-in-out: o percurso fica visível); o pouso fica por conta do balanço do papel */
+::view-transition-group(extrato) {
+  animation-duration: 420ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* o papel sobe um pouco e cai no centro: um arco, não um deslize reto */
+::view-transition-image-pair(extrato) { animation: 420ms cubic-bezier(0.4, 0, 0.2, 1) both vt-arco; }
+@keyframes vt-arco { 0% { translate: 0 0; } 40% { translate: 0 -28px; } 100% { translate: 0 0; } }
+/* abrindo, o papel voa opaco: a tira some na hora e a folha inteira aparece cheia desde o primeiro quadro (sem fantasma da máquina).
+   fechando, a folha se desfaz no botão "Ver comprovante". */
+::view-transition-new(extrato) { height: 100%; object-fit: cover; object-position: top; }
+:root[data-voo="abre"]::view-transition-old(extrato) { animation: none; opacity: 0; }
+:root[data-voo="abre"]::view-transition-new(extrato) { animation: none; }
+:root[data-voo="fecha"]::view-transition-old(extrato) { animation: 160ms ease-in 260ms both vt-some; }
+:root[data-voo="fecha"]::view-transition-new(extrato) { animation: 120ms ease-out 300ms both vt-surge; } /* o botão só aparece quando o papel já encolheu até ele: antes ficaria esticado */
+@keyframes vt-some { to { opacity: 0; } }
+@keyframes vt-surge { from { opacity: 0; } }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 380ms; }
+/* durante o voo a página não faz crossfade: o recuo da máquina e o véu acontecem ao vivo na imagem nova (sem dupla exposição) */
+:root[data-voo]::view-transition-old(root), :root[data-voo]::view-transition-new(root) { animation: none; }

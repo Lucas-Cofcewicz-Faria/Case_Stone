@@ -1,0 +1,44 @@
+[
+  {
+    "input": "Post do Impulso para confeiteiras que vendem bolo por encomenda pelo WhatsApp e não sabem quanto cobrar",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "alimentacao"
+    }
+  },
+  {
+    "input": "Post do Impulso para donas de salão de beleza pequeno com a agenda vazia na terça e na quarta",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "beleza"
+    }
+  },
+  {
+    "input": "Post do Impulso para donas de loja de roupas de bairro que também querem vender pelo Instagram",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "varejo"
+    }
+  },
+  {
+    "input": "Post do Impulso para donos de lavanderia de bairro que querem atender os prédios da região",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "servicos"
+    }
+  },
+  {
+    "input": "Post do Impulso para artesãs autônomas, MEI, que fazem lembrancinhas personalizadas e se perdem com a nota fiscal e o DAS",
+    "additional_metadata": {
+      "origem": "playbook",
+      "rotulo": "autonomos"
+    }
+  },
+  {
+    "input": "Post do Impulso para MEIs de manutenção de ar-condicionado que querem mais orçamentos",
+    "additional_metadata": {
+      "origem": "web-preset",
+      "rotulo": "ar-condicionado"
+    }
+  }
+]
