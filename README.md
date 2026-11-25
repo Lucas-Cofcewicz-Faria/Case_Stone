@@ -3,6 +3,8 @@
 Um avaliador e um agente de criativos para micro e pequenos empreendedores (MPEs), feitos para o Impulso Stone.
 O projeto mede **engajamento qualificado** (comentários, perguntas e pedidos) e **não** alcance, views ou curtidas.
 
+**Link do vídeo demo: https://youtu.be/hALAh2AtZXM**
+
 > Case individual · Inteli Academy × Stone · entrega presencial em 25/11/2026
 
 ---
